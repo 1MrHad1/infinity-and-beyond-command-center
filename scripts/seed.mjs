@@ -12,9 +12,12 @@
  *
  * Run:  npm run seed
  */
-import "dotenv/config";
+import dotenv from "dotenv";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath as _f } from "node:url";
+dotenv.config({ path: path.join(path.dirname(_f(import.meta.url)), "..", ".env.local") });
+dotenv.config(); // fallback to .env if present
 import crypto from "node:crypto";
 import { fileURLToPath } from "node:url";
 import { createClient } from "@supabase/supabase-js";
