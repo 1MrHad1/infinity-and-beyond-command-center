@@ -1,0 +1,2485 @@
+{
+  "person": "Nishanth Mahesh",
+  "slug": "nishanth",
+  "role": "Technical / eCommerce & Dev Lead",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Foundation",
+      "goal": "Stand up the agency's full tech stack, accounts and team norms so building can start on solid rails."
+    },
+    {
+      "week": 2,
+      "theme": "Brand + Web Foundation",
+      "goal": "Turn the brand kit into design tokens and ship the homepage and service-page framework to staging."
+    },
+    {
+      "week": 3,
+      "theme": "Website + Offer",
+      "goal": "Launch the production website with complete service pages, INR pricing, payments and technical SEO."
+    },
+    {
+      "week": 4,
+      "theme": "Content + Proof",
+      "goal": "Build sample work and publish the first case studies, blog and SEO deliverable templates."
+    },
+    {
+      "week": 5,
+      "theme": "Lead Generation",
+      "goal": "Ship the inbound + outbound lead engine: lead magnet, analytics dashboard, capture and outreach systems."
+    },
+    {
+      "week": 6,
+      "theme": "Outreach + Sales",
+      "goal": "Run structured prospecting, send the first proposals and convert the first discovery calls."
+    },
+    {
+      "week": 7,
+      "theme": "Delivery Systems",
+      "goal": "Build onboarding, project management and reusable delivery assets, then deliver for the first client."
+    },
+    {
+      "week": 8,
+      "theme": "Scale + Optimize",
+      "goal": "Launch the first client, collect proof, refine offers and automate reporting and ops."
+    },
+    {
+      "week": 9,
+      "theme": "Launch Push + Review",
+      "goal": "Publicly launch the agency, optimize post-launch and set the next-quarter technical roadmap."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "focus": "Workspace & tooling setup",
+      "tasks": [
+        {
+          "title": "Build the agency Notion command center",
+          "detail": "Create a Notion workspace with linked databases: Projects, Tasks, Clients, Content Calendar and SOP Library, so the whole team plans in one place. Deliverable: a working Notion hub shared with Rohini and Afeeda.",
+          "category": "setup",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up shared Google Drive structure",
+          "detail": "Create top-level folders (Brand, Website, Clients, Sales, SOPs, Finance) with a naming-convention doc. Deliverable: an organized Drive everyone can navigate.",
+          "category": "setup",
+          "minutes": 45,
+          "resource": {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Co-author the team charter & tech-ownership RACI",
+          "detail": "Document that Nishanth owns tech, build and delivery; agree working hours, standup cadence and comms channels. Deliverable: a one-page charter in Notion.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run a personal skills-gap audit vs the 60-day mission",
+          "detail": "List required skills (Next.js, GA4, automation, SEO tooling) against current level and pick 3 to sharpen. Deliverable: a short gap list with learning links.",
+          "category": "learn",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "Tech stack decisions",
+      "tasks": [
+        {
+          "title": "Write the agency tech-stack decision doc",
+          "detail": "Decide the site stack (Next.js + Tailwind on Vercel), CMS/forms, analytics, automation and payments. Deliverable: stack-decisions.md committed to the repo.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the GitHub organization + conventions",
+          "detail": "Set up the org, main website repo, README, branch protection and issue templates. Deliverable: an initialized GitHub org with contribution rules.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "GitHub",
+            "url": "https://github.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Stand up a shared credentials vault",
+          "detail": "Create a Bitwarden organization, add all shared accounts and invite the team. Deliverable: a single source of truth for logins.",
+          "category": "setup",
+          "minutes": 45,
+          "resource": {
+            "label": "Bitwarden",
+            "url": "https://bitwarden.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Teardown 3 Indian agency websites",
+          "detail": "Analyze the stacks, offers and INR pricing of 3 competitor agencies and note patterns to beat. Deliverable: a short competitor notes page.",
+          "category": "learn",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Domain, hosting & analytics",
+      "tasks": [
+        {
+          "title": "Register the domain + configure DNS",
+          "detail": "Buy the Infinity & Beyond domain, set nameservers/Cloudflare and enable SSL. Deliverable: a live domain resolving with HTTPS.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Hostinger India",
+            "url": "https://www.hostinger.in"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Provision Vercel and connect GitHub",
+          "detail": "Create the Vercel project linked to the repo with preview deploys and the custom domain wired. Deliverable: an automated deploy pipeline.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Vercel",
+            "url": "https://vercel.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create GA4, Search Console and Tag Manager",
+          "detail": "Set up the GA4 property, verify the domain in Search Console and install a GTM container. Deliverable: analytics + verification live.",
+          "category": "setup",
+          "minutes": 75,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up professional agency email",
+          "detail": "Configure hello@ and nishanth@ aliases with SPF/DKIM for deliverability. Deliverable: working branded email.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": {
+            "label": "Zoho Mail",
+            "url": "https://www.zoho.com/mail/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "focus": "Positioning & niche research",
+      "tasks": [
+        {
+          "title": "Facilitate a positioning workshop with the team",
+          "detail": "Define the target niche (D2C Shopify brands + local service SMBs in India), the ICP and a one-line positioning statement. Deliverable: a positioning doc in Notion.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build a competitor + pricing research sheet",
+          "detail": "Compile 10 Indian agencies with services, INR pricing and USPs into a Google Sheet. Deliverable: a comparison sheet informing our pricing.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft the service-line hypothesis list",
+          "detail": "List candidate productized services (Shopify builds, web dev, SEO, automation) with rough INR price bands. Deliverable: a first offer menu.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the team channel + standup template",
+          "detail": "Create the team comms channel (Slack/WhatsApp) and a daily async standup template. Deliverable: a working comms routine.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "focus": "Brand & repo scaffolding",
+      "tasks": [
+        {
+          "title": "Scaffold and deploy the website repo",
+          "detail": "Initialize the Next.js + Tailwind app, commit the boilerplate and deploy a live preview to Vercel. Deliverable: the agency site's first public preview URL.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Set up the design-tokens file",
+          "detail": "Create tailwind.config with placeholder brand colors and typography to be finalized after the brand kit. Deliverable: a token scaffold.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Tailwind CSS",
+            "url": "https://tailwindcss.com/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the tooling-accounts register",
+          "detail": "Document every account, its owner, where the login lives (Bitwarden) and the renewal date. Deliverable: an accounts register.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Refresh Next.js App Router fundamentals",
+          "detail": "Work through the App Router routing and layouts guide to build cleanly this week. Deliverable: notes on routing patterns for the site.",
+          "category": "learn",
+          "minutes": 45,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "focus": "Automation & CRM foundation",
+      "tasks": [
+        {
+          "title": "Set up the HubSpot free CRM",
+          "detail": "Create the CRM with pipeline stages and deal properties for agency sales and invite the team. Deliverable: a working sales pipeline.",
+          "category": "setup",
+          "minutes": 75,
+          "resource": {
+            "label": "HubSpot Free CRM",
+            "url": "https://www.hubspot.com/products/crm"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Connect the automation platform with a test flow",
+          "detail": "Create a Make/n8n account and build a test workflow (form to Sheet to email) to validate the stack. Deliverable: one working automation.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up the discovery-call booking link",
+          "detail": "Configure a Cal.com booking page with intake questions for discovery calls. Deliverable: a shareable booking link.",
+          "category": "setup",
+          "minutes": 45,
+          "resource": {
+            "label": "Cal.com",
+            "url": "https://cal.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the analytics dashboard shell",
+          "detail": "Start a Looker Studio dashboard connected to GA4 to be filled out as data arrives. Deliverable: a dashboard skeleton.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "focus": "Week 1 review & backlog",
+      "tasks": [
+        {
+          "title": "Run the Week-1 retro and plan Week-2",
+          "detail": "Review foundation deliverables, log blockers and set Week-2 goals in Notion. Deliverable: a retro note + Week-2 plan.",
+          "category": "admin",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Verify all accounts and team access",
+          "detail": "Confirm domain, Vercel, GA4, GSC, GitHub, CRM and vault are provisioned with correct access; fix gaps. Deliverable: a green access checklist.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the website 'definition of done'",
+          "detail": "Create a page checklist (performance, SEO, responsive, analytics, accessibility) to guide the build. Deliverable: a DoD checklist.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn Core Web Vitals fundamentals",
+          "detail": "Study LCP, INP and CLS so the build targets green vitals from day one. Deliverable: a vitals cheat sheet.",
+          "category": "learn",
+          "minutes": 45,
+          "resource": {
+            "label": "web.dev Core Web Vitals",
+            "url": "https://web.dev/vitals/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "focus": "Brand kit intake & site IA",
+      "tasks": [
+        {
+          "title": "Wire the brand kit into design tokens",
+          "detail": "Encode Rohini's colors, fonts and logo into tailwind.config + CSS variables and deploy a token preview page. Deliverable: brand tokens live in code.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Tailwind CSS",
+            "url": "https://tailwindcss.com/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Define the website information architecture",
+          "detail": "Map the sitemap (Home, Services, Work, About, Blog, Contact), URL structure and navigation. Deliverable: an IA/sitemap doc.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Scaffold the reusable component library",
+          "detail": "Build Button, Section, Card, Nav and Footer components using brand tokens. Deliverable: a starter component set.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Install fonts with next/font",
+          "detail": "Set up self-hosted brand fonts via next/font for performance. Deliverable: fonts loading with no layout shift.",
+          "category": "build",
+          "minutes": 30,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "focus": "Homepage build - part 1",
+      "tasks": [
+        {
+          "title": "Build the homepage hero, nav and footer",
+          "detail": "Code a responsive hero (headline, subhead, CTA), a sticky nav and a footer with contact details; deploy the preview. Deliverable: homepage shell live.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the services overview section",
+          "detail": "Create a grid of the productized services with icons and short placeholder copy. Deliverable: a services teaser section.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run a responsive + accessibility pass",
+          "detail": "Add mobile breakpoints, semantic HTML, alt text and focus states. Deliverable: an accessible, responsive homepage top.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "focus": "Homepage build - part 2",
+      "tasks": [
+        {
+          "title": "Build the social proof and process sections",
+          "detail": "Add a logos/testimonials placeholder and a 4-step 'how we work' section. Deliverable: trust + process sections.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the lead-capture contact section + form",
+          "detail": "Code a contact form with validation and a thank-you state. Deliverable: a working homepage contact form.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Tally Forms",
+            "url": "https://tally.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Add SEO metadata and Open Graph scaffolding",
+          "detail": "Use the Next.js Metadata API for title/description templates and an Open Graph image. Deliverable: baseline SEO tags.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Wire form submissions to the CRM/Sheet",
+          "detail": "Connect the contact form to HubSpot and a backup Sheet via the automation platform. Deliverable: leads flowing into the CRM.",
+          "category": "build",
+          "minutes": 30,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "focus": "Service page framework",
+      "tasks": [
+        {
+          "title": "Build the reusable Service page template",
+          "detail": "Create a dynamic route/template with hero, problem, deliverables, process, pricing, FAQ and CTA sections. Deliverable: one template powering all services.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Populate the Shopify service page with Rohini",
+          "detail": "Fill the template for the Shopify store build/optimization service with INR pricing tiers. Deliverable: a complete Shopify service page.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add an accessible FAQ accordion + schema",
+          "detail": "Build a keyboard-accessible accordion and add FAQPage JSON-LD. Deliverable: a reusable FAQ block with schema.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "focus": "Web dev & SEO service pages",
+      "tasks": [
+        {
+          "title": "Build the Web Development service page",
+          "detail": "Populate the template for landing pages, business sites and custom builds with INR packages. Deliverable: a live web-dev service page.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the SEO service page",
+          "detail": "Create the on-page/technical/local SEO offer with deliverables and INR retainer tiers. Deliverable: a live SEO service page.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Polish cross-linking and internal navigation",
+          "detail": "Add CTAs between service pages, breadcrumbs and related-service links. Deliverable: interlinked service pages.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn Service schema markup",
+          "detail": "Study Service and Offer schema to mark up the pages correctly. Deliverable: notes + a JSON-LD snippet.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "focus": "Automation service page + forms",
+      "tasks": [
+        {
+          "title": "Build the Automation/Systems service page",
+          "detail": "Productize workflow automation (CRM, lead routing, dashboards) with INR pricing on the template. Deliverable: a live automation service page.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Harden all forms with spam protection",
+          "detail": "Add a honeypot, rate-limiting and server validation with clear success/error UX across every form. Deliverable: spam-resistant forms.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up transactional email for form notifications",
+          "detail": "Configure a Brevo sending domain and templates for lead alerts plus an autoresponder. Deliverable: instant lead notifications.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Brevo",
+            "url": "https://www.brevo.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Test all form-to-CRM flows end to end",
+          "detail": "Submit every form and confirm the lead reaches CRM, Sheet and email. Deliverable: a verified capture pipeline.",
+          "category": "delivery",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "focus": "Site staging milestone",
+      "tasks": [
+        {
+          "title": "Deploy the full site to staging + QA pass",
+          "detail": "Put all pages on a staging URL and run the QA checklist (links, responsive, forms). Deliverable: a complete staging site ready for review.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "Vercel",
+            "url": "https://vercel.com"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Run a Lighthouse/PageSpeed audit + quick wins",
+          "detail": "Optimize images, add lazy loading and tune fonts to target 90+ desktop. Deliverable: a performance report + fixes.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn next/image optimization best practices",
+          "detail": "Study responsive images, sizes and formats to keep LCP low. Deliverable: an image-optimization checklist.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-2 retro and plan Week-3",
+          "detail": "Review progress, log the backlog and set launch goals. Deliverable: a retro + Week-3 plan.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "focus": "Portfolio scaffolding",
+      "tasks": [
+        {
+          "title": "Build the Work page + case-study template",
+          "detail": "Create a portfolio grid and a dynamic case-study template (challenge, approach, results, tech). Deliverable: a portfolio framework.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up MDX/CMS for case studies and blog",
+          "detail": "Add a content pipeline (MDX or headless CMS) so the team can publish without code. Deliverable: a working content pipeline.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Next.js Docs",
+            "url": "https://nextjs.org/docs"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the case-study intake template",
+          "detail": "Build a Notion template to capture project data that converts into a case study. Deliverable: a reusable intake form.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "focus": "About & trust pages",
+      "tasks": [
+        {
+          "title": "Build the About page",
+          "detail": "Code team bios, the agency story and values using Rohini's copy and photos. Deliverable: a live About page.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the Contact page + booking embed",
+          "detail": "Add contact details, a form, a map, the Cal.com embed and a WhatsApp click-to-chat. Deliverable: a full contact page.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Cal.com",
+            "url": "https://cal.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Publish the legal pages",
+          "detail": "Draft and publish Privacy Policy, Terms and a Refund Policy for the India context. Deliverable: compliant legal pages.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add trust signals across the site",
+          "detail": "Place certifications, tech badges and guarantees to build credibility. Deliverable: trust elements on key pages.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "focus": "Pricing & packaging",
+      "tasks": [
+        {
+          "title": "Build the pricing/packages page",
+          "detail": "Create productized tiers across all services with INR pricing, a comparison table and CTAs. Deliverable: a live pricing page.",
+          "category": "build",
+          "minutes": 105,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Finalize the pricing model with the team",
+          "detail": "Set INR price bands, retainers vs one-off, and payment terms (advance %). Deliverable: a locked pricing model.",
+          "category": "sales",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up Razorpay payment and UPI links",
+          "detail": "Create payment links and invoicing for advances and test a Rs 1 transaction. Deliverable: working India payments.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Razorpay",
+            "url": "https://razorpay.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "focus": "SEO foundation - technical",
+      "tasks": [
+        {
+          "title": "Implement the technical SEO baseline",
+          "detail": "Add robots.txt, sitemap.xml, canonical tags and Organization + LocalBusiness JSON-LD. Deliverable: a technically sound site.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Submit the site to Search Console and Bing",
+          "detail": "Verify ownership, submit the sitemap and request indexing on Google and Bing. Deliverable: the site queued for indexing.",
+          "category": "setup",
+          "minutes": 45,
+          "resource": {
+            "label": "Search Console",
+            "url": "https://search.google.com/search-console"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up analytics events and conversions",
+          "detail": "Track form submits, CTA clicks and bookings via GTM and mark them as GA4 conversions. Deliverable: measured conversions.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Tag Manager",
+            "url": "https://tagmanager.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Validate schema with the Rich Results Test",
+          "detail": "Test every structured-data block and fix errors/warnings. Deliverable: valid, eligible rich results.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "Rich Results Test",
+            "url": "https://search.google.com/test/rich-results"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "focus": "Performance & accessibility",
+      "tasks": [
+        {
+          "title": "Run a full performance optimization pass",
+          "detail": "Fix the LCP image, code-split, add caching headers and defer non-critical JS to hit 90+ mobile. Deliverable: green Core Web Vitals.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run an accessibility audit and fix issues",
+          "detail": "Check contrast, ARIA, and keyboard navigation with axe and resolve findings. Deliverable: a WCAG-improved site.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "axe DevTools",
+            "url": "https://www.deque.com/axe/devtools/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run cross-browser and device QA",
+          "detail": "Test Chrome, Safari and Firefox plus real Android/iOS and log and fix issues. Deliverable: a QA pass report.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "focus": "Content population & polish",
+      "tasks": [
+        {
+          "title": "Populate final copy across all pages",
+          "detail": "Integrate Rohini's finalized copy and fix hierarchy, CTAs and microcopy. Deliverable: production-ready content.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add and optimize real imagery",
+          "detail": "Source and optimize images (Unsplash/Canva) with alt text and consistent art direction. Deliverable: polished visuals sitewide.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Unsplash",
+            "url": "https://unsplash.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build 404, loading and error states",
+          "detail": "Create a custom 404, loading skeletons and clear form error UX. Deliverable: graceful edge-case states.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn on-page SEO for service pages",
+          "detail": "Study title/heading/internal-link patterns for commercial pages. Deliverable: an on-page checklist.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "focus": "Website launch",
+      "tasks": [
+        {
+          "title": "Launch the website to the production domain",
+          "detail": "Point the domain, run final QA and go live, then announce internally. Deliverable: the Infinity & Beyond site live to the world.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Vercel",
+            "url": "https://vercel.com"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Set up post-launch monitoring",
+          "detail": "Add an uptime monitor, confirm GA4 realtime, check GSC coverage and enable error logging. Deliverable: live monitoring.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the website maintenance SOP",
+          "detail": "Document the update, backup and deploy process so maintenance is repeatable. Deliverable: a maintenance SOP.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-3 retro and plan Week-4",
+          "detail": "Review the launch, log the backlog and set content/proof goals. Deliverable: a retro + Week-4 plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "focus": "Sample work: Shopify demo",
+      "tasks": [
+        {
+          "title": "Build a Shopify demo store",
+          "detail": "Spin up a Shopify dev store, install a theme, add products and showcase optimization work as portfolio proof. Deliverable: a live demo store.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Shopify",
+            "url": "https://www.shopify.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Document the Shopify optimization checklist",
+          "detail": "Write a reusable SOP covering speed, PDP, apps and conversion for client delivery. Deliverable: a Shopify delivery SOP.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Capture demo-store screenshots for a case study",
+          "detail": "Take before/after and feature screenshots for use in proof assets. Deliverable: a screenshot set.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn Shopify Partners and dev-store setup",
+          "detail": "Study the Partners program and dev-store workflow for client builds. Deliverable: notes on the client build flow.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "Shopify Partners",
+            "url": "https://www.shopify.com/partners"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "focus": "Sample work: landing page",
+      "tasks": [
+        {
+          "title": "Build a reusable high-converting landing page template",
+          "detail": "Create a productized landing page (hero, benefits, proof, form, CTA) deployable per client and A/B ready. Deliverable: an LP template.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Wire landing-page analytics and lead routing",
+          "detail": "Add GA4 events, form-to-CRM routing and thank-you tracking. Deliverable: a measurable LP.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Package a 'Landing Page in 48h' offer",
+          "detail": "Define the scope, INR price and timeline as a productized service. Deliverable: a sellable offer sheet.",
+          "category": "sales",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write a mini case study for the landing page",
+          "detail": "Screenshot and document the LP build as a portfolio proof point. Deliverable: an LP case snippet.",
+          "category": "marketing",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "focus": "Sample work: automation demo",
+      "tasks": [
+        {
+          "title": "Build a lead-management automation demo",
+          "detail": "Create an automation: web form to CRM to WhatsApp/email alert to a Sheet dashboard. Deliverable: a working demo automation.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Record a Loom walkthrough of the automation",
+          "detail": "Screen-record the workflow end to end as sales collateral. Deliverable: a demo video.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": {
+            "label": "Loom",
+            "url": "https://www.loom.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Document the automation as a productized offer",
+          "detail": "Define scope, INR pricing and outcomes for the automation service. Deliverable: an offer sheet.",
+          "category": "sales",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn advanced Make/n8n modules",
+          "detail": "Study routers, iterators and error handling to build robust client automations. Deliverable: notes on reusable patterns.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "n8n",
+            "url": "https://n8n.io"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "focus": "SEO tooling & audit product",
+      "tasks": [
+        {
+          "title": "Build an SEO audit deliverable template",
+          "detail": "Standardize an audit report (technical, on-page, speed, schema) as a reusable template. Deliverable: an audit template.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the SEO tooling stack",
+          "detail": "Configure Screaming Frog, GSC, PageSpeed and a keyword tool and document the workflow. Deliverable: a documented SEO toolkit.",
+          "category": "setup",
+          "minutes": 75,
+          "resource": {
+            "label": "Screaming Frog",
+            "url": "https://www.screamingfrog.co.uk/seo-spider/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run a sample SEO audit on a demo site",
+          "detail": "Produce a real, filled-in audit as portfolio proof. Deliverable: one completed sample audit.",
+          "category": "delivery",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "focus": "First case studies",
+      "tasks": [
+        {
+          "title": "Write 2 case studies from the sample work",
+          "detail": "Turn the Shopify and landing-page demos into full case studies (problem, approach, result, tech). Deliverable: 2 written case studies.",
+          "category": "marketing",
+          "minutes": 105,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build and publish the case-study pages",
+          "detail": "Populate the case-study template, add images and publish to /work. Deliverable: 2 case studies live on the site.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Add case-study schema and internal links",
+          "detail": "Add Article/CreativeWork JSON-LD and link case studies from services and home. Deliverable: interlinked, structured case studies.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "focus": "Blog & content engine",
+      "tasks": [
+        {
+          "title": "Set up the blog and publish the first pillar post",
+          "detail": "Publish an SEO post (e.g. 'Shopify store checklist for Indian D2C brands') via the content pipeline. Deliverable: the first blog post live.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the content SEO template",
+          "detail": "Create a reusable post layout with Article schema, table of contents, meta and internal linking. Deliverable: a content template.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Do keyword research for the content plan",
+          "detail": "Find 10 India-intent target keywords and turn them into a content calendar. Deliverable: a keyword-backed calendar.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Keyword Planner",
+            "url": "https://ads.google.com/home/tools/keyword-planner/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn content SEO and GEO/AI Overview basics",
+          "detail": "Study how to structure content for Google AI Overviews and answer engines. Deliverable: a GEO checklist.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "focus": "Proof assets & review",
+      "tasks": [
+        {
+          "title": "Build a downloadable lead magnet asset",
+          "detail": "Create a 'Shopify Speed Checklist' PDF/interactive with the gate scaffolding ready for Week 5. Deliverable: a lead-magnet asset.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create a portfolio one-pager / capabilities deck",
+          "detail": "Design a sales-ready deck with case studies and INR pricing. Deliverable: a capabilities deck.",
+          "category": "marketing",
+          "minutes": 75,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "QA all published proof pages",
+          "detail": "Verify case studies, blog and demos render, link and load correctly. Deliverable: a clean proof section.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-4 retro and plan Week-5",
+          "detail": "Review proof deliverables and set lead-gen goals. Deliverable: a retro + Week-5 plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "focus": "Lead magnet & capture",
+      "tasks": [
+        {
+          "title": "Build the gated lead magnet + capture flow",
+          "detail": "Ship a landing page and form that emails the asset with double opt-in. Deliverable: the live lead-gen engine's first funnel.",
+          "category": "build",
+          "minutes": 105,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Set up email delivery and the nurture list",
+          "detail": "Create the list, automate asset delivery and tag subscribers by interest. Deliverable: an automated nurture list.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Brevo",
+            "url": "https://www.brevo.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Track lead-magnet conversions in GA4",
+          "detail": "Add events and a conversion goal for downloads. Deliverable: measured magnet conversions.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "A/B test two headlines on the magnet page",
+          "detail": "Set up a simple headline split test to lift conversion. Deliverable: a running A/B test.",
+          "category": "build",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "focus": "Analytics dashboard",
+      "tasks": [
+        {
+          "title": "Build the agency KPI dashboard",
+          "detail": "Create a Looker Studio dashboard for traffic, leads, conversion and source, connecting GA4 + Sheets. Deliverable: a live KPI dashboard.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up lead-source tracking and UTMs",
+          "detail": "Write a UTM convention doc and generate tracked links for every channel. Deliverable: consistent source attribution.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create a weekly analytics report template",
+          "detail": "Build a repeatable weekly report layout for internal review. Deliverable: a report template.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn Looker Studio calculated fields",
+          "detail": "Study calculated fields and blends to enrich the dashboard. Deliverable: notes + one new metric.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "focus": "Inbound SEO engine",
+      "tasks": [
+        {
+          "title": "Publish 2 buyer-intent SEO pages",
+          "detail": "Create bottom-funnel pages like 'Shopify developer in India' and 'affordable SEO for small business'. Deliverable: 2 commercial pages live.",
+          "category": "build",
+          "minutes": 105,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Optimize existing pages for target keywords",
+          "detail": "Tune titles, headers, internal links and schema on current pages. Deliverable: an on-page optimization pass.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up rank tracking",
+          "detail": "Track target keywords via GSC and a free rank tool. Deliverable: a rank-tracking sheet.",
+          "category": "setup",
+          "minutes": 45,
+          "resource": {
+            "label": "Search Console",
+            "url": "https://search.google.com/search-console"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Submit new pages for indexing",
+          "detail": "Request indexing for the new pages in Search Console. Deliverable: pages queued for crawl.",
+          "category": "delivery",
+          "minutes": 30,
+          "resource": {
+            "label": "Search Console",
+            "url": "https://search.google.com/search-console"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "focus": "Outbound systems - build",
+      "tasks": [
+        {
+          "title": "Build the prospect database + enrichment sheet",
+          "detail": "Create a structured Sheet (company, contact, niche, pain, source) and seed 50 Indian SMB/D2C prospects. Deliverable: a 50-lead prospect list.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up cold-email tooling and domain warmup",
+          "detail": "Configure a sending domain, warmup and sequences with SPF/DKIM/DMARC. Deliverable: a deliverability-ready outreach setup.",
+          "category": "setup",
+          "minutes": 90,
+          "resource": {
+            "label": "Brevo",
+            "url": "https://www.brevo.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build the LinkedIn outreach tracker",
+          "detail": "Create a tracker for connection requests, DMs and follow-ups. Deliverable: an outreach tracker.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn cold-email deliverability",
+          "detail": "Study warmup, spam triggers and sending limits to protect the domain. Deliverable: a deliverability checklist.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "focus": "Outreach automation",
+      "tasks": [
+        {
+          "title": "Automate the prospect-to-CRM-to-sequence flow",
+          "detail": "Build an automation that pushes new prospects into the CRM and triggers the outreach sequence, logging replies. Deliverable: an automated outreach pipeline.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft cold email + DM templates with the team",
+          "detail": "Write a 3-step email sequence and LinkedIn DM scripts with personalization tokens. Deliverable: an outreach message kit.",
+          "category": "sales",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up reply detection and lead scoring",
+          "detail": "Route replies and score leads by engagement in the CRM. Deliverable: prioritized inbound replies.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "HubSpot Free CRM",
+            "url": "https://www.hubspot.com/products/crm"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "focus": "Campaign landing pages",
+      "tasks": [
+        {
+          "title": "Build 2 niche campaign landing pages",
+          "detail": "Deploy vertical-specific LPs (D2C Shopify, local service SEO) from the template. Deliverable: 2 live campaign pages.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up conversion tracking and heatmaps",
+          "detail": "Add Microsoft Clarity heatmaps and GA4 goals on the campaign LPs. Deliverable: behavior + conversion data.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Microsoft Clarity",
+            "url": "https://clarity.microsoft.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "QA and speed-optimize the campaign pages",
+          "detail": "Run QA and tune performance so the pages load fast under ad traffic. Deliverable: fast, verified LPs.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "focus": "Lead-gen review",
+      "tasks": [
+        {
+          "title": "Audit the full lead-gen funnel end to end",
+          "detail": "Test every path (organic, magnet, outbound) from click to CRM and fix leaks. Deliverable: a verified funnel.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the leads dashboard view + alerts",
+          "detail": "Add a real-time leads view and a Slack/WhatsApp alert on each new lead. Deliverable: instant lead visibility.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn conversion rate optimization basics",
+          "detail": "Study CRO fundamentals to guide funnel improvements. Deliverable: a CRO idea backlog.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-5 retro and plan Week-6",
+          "detail": "Review lead-gen results and set outreach/sales goals. Deliverable: a retro + Week-6 plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "focus": "Prospecting sprint",
+      "tasks": [
+        {
+          "title": "Expand the prospect list to 100+ qualified leads",
+          "detail": "Research and enrich Indian SMB/D2C prospects into the CRM with pain notes. Deliverable: 100+ qualified leads.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": {
+            "label": "HubSpot Free CRM",
+            "url": "https://www.hubspot.com/products/crm"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Launch the first cold-outreach batch",
+          "detail": "Send the sequence to the first 30 prospects and log activity in the CRM. Deliverable: batch 1 outreach sent.",
+          "category": "sales",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the outreach performance tracker",
+          "detail": "Track sent, open, reply and meeting rates in a dashboard. Deliverable: outreach metrics visible.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn consultative selling basics",
+          "detail": "Study SPIN/consultative questioning for discovery calls. Deliverable: a discovery question bank.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "focus": "Proposal system",
+      "tasks": [
+        {
+          "title": "Build a reusable proposal template",
+          "detail": "Create a branded proposal (scope, deliverables, timeline, INR pricing, terms) that is fast to customize. Deliverable: a proposal template.",
+          "category": "build",
+          "minutes": 105,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build a pricing calculator tool",
+          "detail": "Create an internal calculator (Sheet or mini web app) to scope and price projects quickly. Deliverable: a pricing calculator.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create the SOW and contract template",
+          "detail": "Draft a statement of work and a simple service agreement for India with advance-% terms. Deliverable: SOW + contract templates.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "focus": "Sales enablement",
+      "tasks": [
+        {
+          "title": "Build the discovery-call script + qualification checklist",
+          "detail": "Write a BANT-style qualification flow and needs-discovery questions. Deliverable: a call script + checklist.",
+          "category": "sales",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Automate booking-to-CRM-to-reminder flow",
+          "detail": "When a call is booked, auto-create the deal and send prep/reminder emails. Deliverable: a booking automation.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Prepare the demo environment for sales calls",
+          "detail": "Ready the demo store, LP, automation and dashboard to show live on calls. Deliverable: a call-ready demo set.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Record a Loom sales demo reel",
+          "detail": "Record a tight walkthrough of the agency's work for cold prospects. Deliverable: a demo reel.",
+          "category": "marketing",
+          "minutes": 30,
+          "resource": {
+            "label": "Loom",
+            "url": "https://www.loom.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "focus": "Outreach batch 2 + follow-up",
+      "tasks": [
+        {
+          "title": "Send outreach batch 2 and follow-ups",
+          "detail": "Send the sequence to the next 40 prospects and follow up with batch-1 non-repliers. Deliverable: batch 2 + follow-ups sent.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Personalize 5 high-value prospect pitches",
+          "detail": "Create custom Loom or audit-teaser pitches for target accounts. Deliverable: 5 personalized pitches.",
+          "category": "sales",
+          "minutes": 60,
+          "resource": {
+            "label": "Loom",
+            "url": "https://www.loom.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run a free mini-audit lead hook",
+          "detail": "Offer and deliver 2-3 free 15-minute site/SEO audits as a conversation starter. Deliverable: audits delivered to warm prospects.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn objection handling",
+          "detail": "Study common agency sales objections and prepared responses. Deliverable: an objection-handling script.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "focus": "First sales calls",
+      "tasks": [
+        {
+          "title": "Run the first discovery calls",
+          "detail": "Conduct the booked discovery calls using the script and capture needs in the CRM. Deliverable: qualified needs documented.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Send the first proposals",
+          "detail": "Turn call notes into tailored proposals and send them via the template. Deliverable: the agency's first proposals out the door.",
+          "category": "sales",
+          "minutes": 75,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Log deals and set a follow-up cadence",
+          "detail": "Update the pipeline and schedule structured follow-ups. Deliverable: a managed pipeline.",
+          "category": "sales",
+          "minutes": 45,
+          "resource": {
+            "label": "HubSpot Free CRM",
+            "url": "https://www.hubspot.com/products/crm"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Debrief the calls and refine the pitch",
+          "detail": "Note what landed and update the script and deck. Deliverable: an improved pitch.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "focus": "Conversion & negotiation",
+      "tasks": [
+        {
+          "title": "Follow up and negotiate open proposals",
+          "detail": "Handle questions, adjust scope/price and move deals toward close. Deliverable: advanced deals.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Prepare onboarding and payment for the first close",
+          "detail": "Set up the Razorpay advance link and the onboarding form so a yes converts instantly. Deliverable: a ready close-to-cash flow.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Razorpay",
+            "url": "https://razorpay.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "A/B test outreach copy based on data",
+          "detail": "Iterate subject lines and CTAs using open/reply rates. Deliverable: an improved outreach variant.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build a deal-pipeline dashboard",
+          "detail": "Visualize stages, value and conversion in the CRM/Looker. Deliverable: a pipeline dashboard.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "focus": "Sales review",
+      "tasks": [
+        {
+          "title": "Analyze outreach and pipeline metrics",
+          "detail": "Review the funnel (sent to reply to call to proposal to close) and find the best channel and segment. Deliverable: a sales-metrics readout.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Refine the ICP and messaging from real data",
+          "detail": "Update the positioning and ICP docs based on real responses. Deliverable: a sharpened ICP.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Prep the delivery-systems backlog for Week 7",
+          "detail": "List the onboarding, PM and asset builds needed for first delivery. Deliverable: a delivery backlog.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-6 retro and plan Week-7",
+          "detail": "Review sales results and set delivery-systems goals. Deliverable: a retro + Week-7 plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "focus": "Client onboarding system",
+      "tasks": [
+        {
+          "title": "Build the client onboarding workflow",
+          "detail": "Create an onboarding form and a Notion client-portal template (kickoff, assets, access, timeline). Deliverable: an onboarding system.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Automate onboarding on deal close",
+          "detail": "Auto-provision the client folder, CRM record and welcome email when a deal is signed. Deliverable: hands-off onboarding.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the onboarding SOP",
+          "detail": "Document the step-by-step onboarding so anyone can run it. Deliverable: an onboarding SOP.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "focus": "Project management system",
+      "tasks": [
+        {
+          "title": "Build the project management system",
+          "detail": "Set up a Notion/ClickUp project template with a task board, milestones and a client-facing view. Deliverable: a reusable PM system.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "ClickUp",
+            "url": "https://clickup.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create delivery SOPs for each service",
+          "detail": "Write step-by-step SOPs with checklists for Shopify, web dev, SEO and automation. Deliverable: a delivery SOP set.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up time and effort tracking",
+          "detail": "Add lightweight time tracking to compare actuals against estimates. Deliverable: a tracking setup.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "focus": "Reusable delivery assets",
+      "tasks": [
+        {
+          "title": "Build a reusable client starter kit",
+          "detail": "Create a boilerplate repo/theme, component library and config so new builds start half done. Deliverable: a starter kit.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "GitHub",
+            "url": "https://github.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create QA and handoff checklists",
+          "detail": "Write pre-launch QA, client handoff and training-doc templates. Deliverable: delivery checklists.",
+          "category": "delivery",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build a client reporting dashboard template",
+          "detail": "Create a Looker Studio template to report client results monthly. Deliverable: a client report template.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "focus": "First client kickoff",
+      "tasks": [
+        {
+          "title": "Onboard the first paying client",
+          "detail": "Run the kickoff, collect access and assets via the portal and set milestones. Deliverable: the first client fully onboarded.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Set up the client project workspace",
+          "detail": "Provision the repo, PM board, comms channel and tracker for the project. Deliverable: a ready project workspace.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Scope and plan the delivery sprint",
+          "detail": "Break the work into weekly milestones with dates. Deliverable: a delivery plan.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn client communication best practices",
+          "detail": "Study cadence, status updates and expectation-setting for smooth delivery. Deliverable: a comms playbook note.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "focus": "Client delivery - build",
+      "tasks": [
+        {
+          "title": "Execute the first client build sprint",
+          "detail": "Do the core build work (site/store/landing) per scope and push a preview deploy. Deliverable: a working preview for the client.",
+          "category": "delivery",
+          "minutes": 150,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Send the client a progress update + preview",
+          "detail": "Share the preview link with a short Loom update. Deliverable: a client progress update.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": {
+            "label": "Loom",
+            "url": "https://www.loom.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Log delivery time vs estimate",
+          "detail": "Track actual hours against the estimate to refine future pricing. Deliverable: time-tracking data.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "focus": "Client delivery - polish",
+      "tasks": [
+        {
+          "title": "Finish the client build and run QA",
+          "detail": "Complete the build, run the QA checklist and fix issues. Deliverable: a QA-passed build.",
+          "category": "delivery",
+          "minutes": 150,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up client analytics and tracking",
+          "detail": "Configure GA4, Search Console and conversion tracking for the client. Deliverable: client measurement live.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Prepare client training and handoff material",
+          "detail": "Create a short training doc/video for the client to manage their site. Deliverable: handoff materials.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": {
+            "label": "Loom",
+            "url": "https://www.loom.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "focus": "Delivery review",
+      "tasks": [
+        {
+          "title": "Run the client review and revision round",
+          "detail": "Walk the client through the build, collect feedback and implement priority revisions. Deliverable: an approved-with-edits build.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Refine SOPs from first-delivery learnings",
+          "detail": "Update SOPs and checklists with the real gaps found during delivery. Deliverable: improved SOPs.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Document delivery time benchmarks",
+          "detail": "Record how long each service actually took to sharpen pricing. Deliverable: a benchmarks note.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-7 retro and plan Week-8",
+          "detail": "Review delivery and set scale/optimize goals. Deliverable: a retro + Week-8 plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "focus": "Client launch & testimonial",
+      "tasks": [
+        {
+          "title": "Launch the first client project to production",
+          "detail": "Go live, run final QA and confirm success metrics. Deliverable: the first client project delivered and live.",
+          "category": "delivery",
+          "minutes": 105,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Request a testimonial and case-study data",
+          "detail": "Collect a quote, real metrics and permission to publish. Deliverable: testimonial + proof data.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the post-launch support SOP",
+          "detail": "Define the support/retainer process, SLA and simple ticketing. Deliverable: a support SOP.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the client success check-in cadence",
+          "detail": "Schedule recurring check-ins to drive retention and upsell. Deliverable: a check-in calendar.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "focus": "Case study & referrals",
+      "tasks": [
+        {
+          "title": "Publish the first real client case study",
+          "detail": "Write and publish a full case study with real results on /work and add schema. Deliverable: a live client case study.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Schema.org",
+            "url": "https://schema.org"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build a referral system",
+          "detail": "Create a referral offer with tracking (unique links/codes) and automation. Deliverable: a working referral engine.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Ask the first client and network for referrals",
+          "detail": "Send referral requests to the client and warm network. Deliverable: referral requests sent.",
+          "category": "sales",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn how to build a referral engine",
+          "detail": "Study referral incentives and mechanics for agencies. Deliverable: a referral playbook note.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "focus": "Offer optimization",
+      "tasks": [
+        {
+          "title": "Refine productized offers from real data",
+          "detail": "Adjust scope and INR pricing using delivery cost and demand, then update the site. Deliverable: sharpened offers live.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add an upsell/retainer offer",
+          "detail": "Productize a monthly care/growth retainer on the pricing page. Deliverable: a retainer offer live.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Update the proposal and pricing calculator",
+          "detail": "Sync the proposal template and calculator with the new pricing. Deliverable: updated sales tools.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "A/B test the pricing page layout",
+          "detail": "Test a layout/copy variant to lift pricing-page conversion. Deliverable: a running pricing test.",
+          "category": "build",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "focus": "Automation & efficiency",
+      "tasks": [
+        {
+          "title": "Automate reporting and client updates",
+          "detail": "Auto-generate and send monthly client reports from Looker Studio/GA4. Deliverable: automated client reporting.",
+          "category": "build",
+          "minutes": 105,
+          "resource": {
+            "label": "Make",
+            "url": "https://www.make.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Automate internal ops (invoicing, follow-ups)",
+          "detail": "Set up recurring invoice links, payment reminders and deal-stage automations. Deliverable: automated ops.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Razorpay",
+            "url": "https://razorpay.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Audit and optimize existing automations",
+          "detail": "Review all workflows for errors and efficiency and fix them. Deliverable: a hardened automation stack.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "focus": "SEO & content scale",
+      "tasks": [
+        {
+          "title": "Publish 2 new SEO content pieces",
+          "detail": "Write buyer-intent posts from the keyword plan and internal-link them to services. Deliverable: 2 posts live.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Re-audit the agency site's technical SEO",
+          "detail": "Crawl with Screaming Frog, fix new issues and update the sitemap. Deliverable: a clean technical crawl.",
+          "category": "delivery",
+          "minutes": 75,
+          "resource": {
+            "label": "Screaming Frog",
+            "url": "https://www.screamingfrog.co.uk/seo-spider/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Review GSC performance and iterate",
+          "detail": "Analyze impressions/clicks and optimize underperforming pages. Deliverable: an optimization pass.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": {
+            "label": "Search Console",
+            "url": "https://search.google.com/search-console"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn programmatic SEO concepts",
+          "detail": "Study templated page generation for scaling service/location pages. Deliverable: a programmatic SEO idea list.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "focus": "Analytics & growth review",
+      "tasks": [
+        {
+          "title": "Build a full-funnel analytics review",
+          "detail": "Combine marketing, sales and delivery metrics into one dashboard and find bottlenecks. Deliverable: a full-funnel view.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up a client cohort/retention view",
+          "detail": "Track client retention and value over time. Deliverable: a retention view.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Optimize top landing pages from data",
+          "detail": "Improve the highest-traffic pages based on behavior data. Deliverable: optimized top pages.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Microsoft Clarity",
+            "url": "https://clarity.microsoft.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Document the growth-experiments backlog",
+          "detail": "Prioritize next-quarter growth experiments. Deliverable: a ranked experiment backlog.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "focus": "Scale-readiness review",
+      "tasks": [
+        {
+          "title": "Package the full delivery playbook",
+          "detail": "Consolidate all SOPs, templates and assets into one 'Delivery OS' in Notion. Deliverable: a single delivery playbook.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create a hiring/outsourcing brief",
+          "detail": "Define what to delegate to a junior/freelancer with checklists so Afeeda or contractors can execute. Deliverable: a delegation brief.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run a systems health check",
+          "detail": "Verify backups, access, security and renewals across all tools. Deliverable: a systems health report.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week-8 retro and plan the launch push",
+          "detail": "Review scaling work and set launch-week goals. Deliverable: a retro + launch plan.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "focus": "Public launch prep",
+      "tasks": [
+        {
+          "title": "Run the final pre-launch site + systems QA",
+          "detail": "Full QA of the site, forms, analytics, automations and payments before public launch. Deliverable: a go/no-go QA sign-off.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Prepare launch assets and tracking",
+          "detail": "Build the launch announcement page, UTM links and conversion tracking. Deliverable: launch assets ready.",
+          "category": "build",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the launch-day monitoring dashboard",
+          "detail": "Create a realtime dashboard for traffic, leads and performance. Deliverable: a launch monitor.",
+          "category": "build",
+          "minutes": 45,
+          "resource": {
+            "label": "Looker Studio",
+            "url": "https://lookerstudio.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Coordinate the launch checklist with the team",
+          "detail": "Align on roles, timing and channels for launch day. Deliverable: a shared launch checklist.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "focus": "Public launch day",
+      "tasks": [
+        {
+          "title": "Execute the public launch",
+          "detail": "Go live across channels: site announcement, portfolio and offers public. Deliverable: Infinity & Beyond publicly launched.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Monitor traffic, forms and performance live",
+          "detail": "Watch GA4 realtime, uptime and the form flow and hotfix any issues. Deliverable: a stable launch.",
+          "category": "delivery",
+          "minutes": 75,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Capture and respond to inbound leads fast",
+          "detail": "Route and reply to launch-day leads via the CRM. Deliverable: launch leads handled.",
+          "category": "sales",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Log launch-day metrics",
+          "detail": "Record traffic, leads and conversions for the retro. Deliverable: a launch metrics snapshot.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "focus": "Post-launch optimization",
+      "tasks": [
+        {
+          "title": "Analyze launch performance and fix drop-offs",
+          "detail": "Review funnel data and optimize the highest-impact leaks. Deliverable: post-launch fixes shipped.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Follow up on launch leads and book calls",
+          "detail": "Nurture launch leads and schedule discovery calls. Deliverable: booked calls from the launch.",
+          "category": "sales",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Publish a 'how we built it' post",
+          "detail": "Write a behind-the-scenes post as thought leadership and SEO. Deliverable: a published launch post.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn post-launch growth loops",
+          "detail": "Study retention and referral loops to sustain momentum. Deliverable: a growth-loop plan note.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "focus": "Retro & next-quarter plan",
+      "tasks": [
+        {
+          "title": "Run the 60-day retrospective with the team",
+          "detail": "Review all deliverables against goals and document wins, misses and learnings. Deliverable: a 60-day retro doc.",
+          "category": "admin",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the next-quarter technical roadmap",
+          "detail": "Prioritize product/service scaling, automation, tech debt and hiring. Deliverable: the Q2 technical roadmap.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Archive and document all systems + credentials",
+          "detail": "Ensure everything is documented, backed up and handoff-ready. Deliverable: a complete systems archive.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": {
+            "label": "Bitwarden",
+            "url": "https://bitwarden.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set personal skill-growth goals for Q2",
+          "detail": "Pick technical skills to level up next quarter. Deliverable: a personal growth plan.",
+          "category": "learn",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    }
+  ]
+}

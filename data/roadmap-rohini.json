@@ -1,0 +1,1965 @@
+{
+  "person": "Rohini Alam",
+  "slug": "rohini",
+  "role": "Marketing / Brand & Content Lead",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Foundation",
+      "goal": "Lock the agency's positioning, niche and ICP, stand up the marketing toolset, and agree team norms so brand work can begin."
+    },
+    {
+      "week": 2,
+      "theme": "Brand + Web Foundation",
+      "goal": "Ship the Infinity & Beyond brand identity and Canva brand kit, and write the core website copy and productized service definitions."
+    },
+    {
+      "week": 3,
+      "theme": "Website + Offer",
+      "goal": "Complete all site content and service pages, build the INR pricing narrative, and scaffold the portfolio with first sample work."
+    },
+    {
+      "week": 4,
+      "theme": "Content + Proof",
+      "goal": "Stand up the content engine (pillars, calendar, templates), publish first blog + case study, and batch two weeks of social posts."
+    },
+    {
+      "week": 5,
+      "theme": "Lead Generation",
+      "goal": "Launch the agency's own social channels as proof, ship a lead magnet, and wire up inbound + outbound lead-capture systems."
+    },
+    {
+      "week": 6,
+      "theme": "Outreach + Sales",
+      "goal": "Build the prospect list and sales collateral, run first outreach + follow-ups, and prepare proposals and discovery calls."
+    },
+    {
+      "week": 7,
+      "theme": "Delivery Systems",
+      "goal": "Document content and social SOPs, build the client onboarding kit, and deliver the first paying client's content batch."
+    },
+    {
+      "week": 8,
+      "theme": "Scale + Optimize",
+      "goal": "Read the analytics, refine offers and messaging, collect testimonials, activate referrals, and stand up a performance dashboard."
+    },
+    {
+      "week": 9,
+      "theme": "Launch Push + Review",
+      "goal": "Run the public launch campaign, analyze results, run a team retro, and write the next-quarter marketing plan."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "focus": "Kickoff & vision",
+      "tasks": [
+        {
+          "title": "Run the founding-team kickoff",
+          "detail": "Facilitate a 90-min workshop with Nishanth and Afeeda to align on the agency vision, mission and 60-day goals; capture it as a one-page Vision doc in Notion.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft the positioning hypothesis",
+          "detail": "Write a first draft one-liner answering who we serve, what we do, and why us (the differentiator). Deliverable: a positioning hypothesis note in Notion to test all week.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Stand up the Marketing & Brand hub",
+          "detail": "Create the shared Notion workspace and a Marketing/Brand hub page with sub-pages for Positioning, Brand, Content, and Social. Deliverable: linked hub structure.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "Market & competitor scan",
+      "tasks": [
+        {
+          "title": "Audit 10 Indian digital agencies",
+          "detail": "Study 10 competing Indian agencies (services, positioning, pricing signals, design). Deliverable: a competitor swipe-file table in Notion with screenshots and notes.",
+          "category": "learn",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Teardown 3 competitor social feeds",
+          "detail": "Analyze the Instagram + LinkedIn of 3 direct competitors: content pillars, cadence, engagement, what works. Deliverable: a 1-page teardown with takeaways for our channels.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Scan niche demand on Google Trends",
+          "detail": "Use Google Trends and quick searches to gauge demand for candidate niches (D2C, local services, startups). Deliverable: a demand snapshot note.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Trends",
+            "url": "https://trends.google.com/trends/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Niche & ICP",
+      "tasks": [
+        {
+          "title": "Choose and justify 2 target niches",
+          "detail": "Decide the 2 niches Infinity & Beyond will lead with (e.g., Indian D2C brands and local service businesses) with a written rationale. Deliverable: Niche Selection doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build 2 ICP persona cards",
+          "detail": "Create 2 detailed ideal-client personas: business type, revenue band, pains, goals, buying triggers, budget in INR, where they hang out. Deliverable: 2 persona cards in Notion.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Compile a 15-business fit list",
+          "detail": "Research and list 15 real Indian businesses matching the ICP, with links and a one-line why-fit each. Deliverable: seed list for later outreach.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "focus": "Brand narrative",
+      "tasks": [
+        {
+          "title": "Lock the name rationale + tagline options",
+          "detail": "Confirm 'Infinity & Beyond' positioning meaning; write 10 tagline options and shortlist 3. Deliverable: Name & Tagline doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the founding brand story",
+          "detail": "Draft a 300-word brand story / founding narrative (the why, the promise, the vision) using an AI assist to iterate. Deliverable: brand story draft.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Claude",
+            "url": "https://claude.ai/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft brand voice & tone guidelines v1",
+          "detail": "Define 4-5 voice adjectives, tone rules, and a do/don't list with example sentences. Deliverable: Voice & Tone v1.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "focus": "Tooling & accounts",
+      "tasks": [
+        {
+          "title": "Set up the marketing tool stack",
+          "detail": "Create/confirm accounts for Canva, a scheduler (Buffer or Later), and Meta Business Suite; note logins in the team password manager. Deliverable: tool-stack checklist.",
+          "category": "setup",
+          "minutes": 90,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Reserve all social handles",
+          "detail": "Claim consistent @infinityandbeyond handles on Instagram, LinkedIn, Facebook and X; confirm the domain with Nishanth. Deliverable: handles registry.",
+          "category": "setup",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Business Suite",
+            "url": "https://business.facebook.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up brand email + shared drive",
+          "detail": "With Nishanth, set up the Google Workspace brand email and a structured shared Drive (Brand, Content, Clients, Templates). Deliverable: folder tree.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "focus": "Team norms & content ops",
+      "tasks": [
+        {
+          "title": "Write the team working agreement",
+          "detail": "Facilitate and document team norms: roles/lanes, comms channels, meeting cadence, decision-making, response times. Deliverable: Working Agreement doc.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up the marketing board + rituals",
+          "detail": "Create the marketing project board (Notion/Sheets) and schedule the weekly standup + Friday review ritual. Deliverable: live board + calendar invites.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft the content-ops SOP skeleton",
+          "detail": "Outline the content operations flow (ideate to publish to report) as an SOP skeleton to fill in later. Deliverable: SOP outline.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "focus": "Positioning sign-off",
+      "tasks": [
+        {
+          "title": "Ship the positioning & messaging one-pager",
+          "detail": "Synthesize the week into a positioning one-pager: value prop, ICP, 3 differentiators, elevator pitch, tagline, voice. Deliverable: approved Positioning One-Pager.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Present positioning and get sign-off",
+          "detail": "Walk the team through the one-pager, capture edits, and get explicit sign-off so brand + web work can start.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run the Week 1 review + plan Week 2",
+          "detail": "Review what shipped vs planned, log blockers, and lay out the Week 2 brand + web tasks on the board.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "focus": "Brand identity direction",
+      "tasks": [
+        {
+          "title": "Build 2 brand moodboards",
+          "detail": "Create 2 distinct moodboard directions (e.g., bold-modern vs premium-minimal) on Pinterest/Canva pulling references, textures and colors. Deliverable: 2 moodboards.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Pinterest",
+            "url": "https://www.pinterest.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft color palette + type pairing",
+          "detail": "For the leading direction, define a primary + accent color palette and a heading/body font pairing. Deliverable: palette hex codes + font choices.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Coolors",
+            "url": "https://coolors.co/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Present directions and decide",
+          "detail": "Show both directions to the team, gather reactions, and lock one visual direction to build out.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "focus": "Logo & visual system",
+      "tasks": [
+        {
+          "title": "Design the logo set",
+          "detail": "Design primary logo, a secondary/stacked mark, and a favicon in Canva using the chosen direction. Deliverable: logo variants.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write logo usage rules",
+          "detail": "Document clear space, min sizes, color variants (light/dark), and misuse examples. Deliverable: logo usage sheet.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Export and hand off logo assets",
+          "detail": "Export PNG/SVG logo files in all variants to the shared Drive and notify Nishanth for the site header/favicon.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "focus": "Brand kit shipped",
+      "tasks": [
+        {
+          "title": "Build the Canva Brand Kit",
+          "detail": "Assemble the official Canva Brand Kit: logos, color palette, fonts, and 2-3 starter templates so all future assets stay on-brand. Deliverable: live Brand Kit.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva Brand Kit",
+            "url": "https://www.canva.com/brand/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Create the brand guidelines mini-doc",
+          "detail": "Produce a 1-page brand guidelines PDF (logo, colors, type, voice snapshot, imagery style) for team + clients. Deliverable: Brand Guidelines PDF.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Design the social profile assets",
+          "detail": "Create profile pictures and banners for Instagram, LinkedIn and Facebook at correct dimensions. Deliverable: profile asset set.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "focus": "Website copy: home & about",
+      "tasks": [
+        {
+          "title": "Write the homepage copy",
+          "detail": "Write full homepage copy: hero headline + subhead, value props, services overview, social proof placeholders, and CTAs. Deliverable: homepage copy doc.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the About page copy",
+          "detail": "Write About page copy from the brand story: mission, approach, and short team intros. Deliverable: About copy doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Hand copy to Nishanth with build notes",
+          "detail": "Deliver copy in a shared doc with section labels, hierarchy notes, and CTA links so Nishanth can build the pages.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "focus": "Service definitions",
+      "tasks": [
+        {
+          "title": "Define the productized service catalog",
+          "detail": "Design 4-5 productized services (e.g., Social Media Management, Brand Identity, Content Engine, Website, Performance Ads) with clear scope + deliverables. Deliverable: service catalog.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write outcomes and benefits per service",
+          "detail": "For each service, articulate the client outcome, who it's for, and what's included/excluded. Deliverable: outcomes matrix.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "focus": "Service page copy",
+      "tasks": [
+        {
+          "title": "Write 2 core service pages",
+          "detail": "Write full copy for the 2 flagship service pages: problem, solution, deliverables, process, CTA. Deliverable: 2 service-page docs.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the site FAQ content",
+          "detail": "Draft 8-10 FAQs covering process, timelines, pricing approach, and working style. Deliverable: FAQ doc.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write contact page + microcopy",
+          "detail": "Write contact page copy plus button/form microcopy and success/thank-you messages. Deliverable: contact + microcopy doc.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "focus": "Brand + web QA",
+      "tasks": [
+        {
+          "title": "Write the remaining service pages",
+          "detail": "Write copy for the remaining 2-3 service pages to complete the catalog. Deliverable: full service-page set.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "QA brand consistency across assets",
+          "detail": "Review logo, colors, fonts and voice across every asset produced this week and fix inconsistencies. Deliverable: QA checklist signed off.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run Week 2 review + plan Week 3",
+          "detail": "Review shipped brand + copy work, sync with Nishanth on build status, and plan Week 3 offer + portfolio.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "focus": "Pricing strategy",
+      "tasks": [
+        {
+          "title": "Benchmark Indian agency pricing",
+          "detail": "Research 8-10 comparable Indian agencies/freelancers to map realistic INR price bands per service. Deliverable: pricing benchmark table.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Design 3-tier INR packages",
+          "detail": "Build Starter / Growth / Scale packages per core service with clear inclusions and monthly + project INR pricing. Deliverable: pricing tiers doc.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft add-ons and retainer logic",
+          "detail": "Define add-ons and retainer vs project logic to make upsells easy. Deliverable: add-on menu.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "focus": "Pricing narrative & offer",
+      "tasks": [
+        {
+          "title": "Write the pricing page copy",
+          "detail": "Write pricing page copy that frames value (outcomes, not hours), handles the 'why this costs this' question, and drives to a call. Deliverable: pricing page doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the 'why us' section",
+          "detail": "Craft a differentiation block: our method, proof, and guarantees vs typical agencies. Deliverable: why-us copy.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft a value/ROI framing tool",
+          "detail": "Outline a simple ROI/value framing (before-after, cost-of-inaction) to use in copy and sales. Deliverable: value framing note.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "focus": "Portfolio scaffolding",
+      "tasks": [
+        {
+          "title": "Design the case-study template",
+          "detail": "Create a reusable case-study template (challenge, approach, work, results, testimonial) in Canva + doc form. Deliverable: case-study template.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Plan the sample/spec work to showcase",
+          "detail": "List the sample projects to create to fill the portfolio (a D2C social campaign, a brand identity, an ad set). Deliverable: portfolio plan.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the portfolio intro copy",
+          "detail": "Write the portfolio/work page intro and per-project blurbs framing our approach. Deliverable: portfolio intro copy.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "focus": "Sample work: social campaign",
+      "tasks": [
+        {
+          "title": "Create a spec D2C social campaign",
+          "detail": "Design a full sample Instagram campaign for a real/fictional Indian D2C brand: 6-post grid, captions, and a reel concept, on-brand. Deliverable: portfolio-ready campaign.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the strategy rationale",
+          "detail": "Document the strategy behind the sample campaign (audience, goal, hooks) so it doubles as a case study. Deliverable: strategy write-up.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "focus": "Sample work: identity & ads",
+      "tasks": [
+        {
+          "title": "Create a sample brand identity mini-project",
+          "detail": "Design a mini brand identity (logo, palette, type, one mockup) for a fictional Indian business to showcase design range. Deliverable: identity mini-project.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create a sample ad creative set",
+          "detail": "Design a set of 4 performance ad creatives (static + story) with variant hooks. Deliverable: ad creative set.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "focus": "Site QA + SEO basics",
+      "tasks": [
+        {
+          "title": "Write meta titles + descriptions",
+          "detail": "Write SEO meta titles and descriptions for every page (home, about, services, pricing, contact). Deliverable: metadata sheet for Nishanth.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "QA on-page copy + image alt text",
+          "detail": "Proofread all live page copy with Nishanth and write descriptive alt text for every image. Deliverable: copy + alt-text QA done.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up Analytics + Search Console",
+          "detail": "With Nishanth, confirm Google Analytics and Search Console are installed and tracking on the site. Deliverable: verified tracking.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "focus": "Website go-live",
+      "tasks": [
+        {
+          "title": "Run full site copy review + go-live QA",
+          "detail": "Do a complete pre-launch pass on all copy, links, CTAs, mobile view and forms; sign off the site as launch-ready with Nishanth. Deliverable: go-live QA sheet.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Write the launch announcement content",
+          "detail": "Draft the 'we're live' announcement copy for social + email to use in Week 5's launch push. Deliverable: announcement drafts.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run Week 3 review + plan Week 4",
+          "detail": "Review offer + portfolio progress and plan the Week 4 content engine build.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "focus": "Content strategy",
+      "tasks": [
+        {
+          "title": "Define the content pillars",
+          "detail": "Set 4 content pillars (e.g., Education, Proof, Behind-the-scenes, Offers) mapped to the ICP's questions. Deliverable: content pillars doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Map content to the funnel",
+          "detail": "Map post types to TOFU/MOFU/BOFU so the feed both attracts and converts. Deliverable: content-funnel map.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set the channel strategy",
+          "detail": "Decide cadence and role for Instagram, LinkedIn and the blog (what each channel is for). Deliverable: channel strategy note.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "focus": "Content calendar system",
+      "tasks": [
+        {
+          "title": "Build the 30-day content calendar template",
+          "detail": "Build a reusable content calendar in Notion/Sheets with columns for date, pillar, format, hook, copy, asset, status. Deliverable: calendar template.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Plan the first month of posts",
+          "detail": "Populate the calendar with 20+ post ideas across pillars for the agency's own channels. Deliverable: month-1 plan filled.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up an AI ideation workflow",
+          "detail": "Create reusable ChatGPT/Gemini prompts for caption and hook drafting to speed content production. Deliverable: prompt library.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "ChatGPT",
+            "url": "https://chat.openai.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "focus": "Content templates",
+      "tasks": [
+        {
+          "title": "Design 5 reusable post templates",
+          "detail": "Build 5 on-brand Canva templates (quote, tip, stat, testimonial, offer) linked to the Brand Kit. Deliverable: template set.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Design carousel + reel templates",
+          "detail": "Create a carousel template and a reel cover/caption framework for repeatable formats. Deliverable: carousel + reel templates.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "focus": "SEO + blog foundation",
+      "tasks": [
+        {
+          "title": "Do keyword research for the blog",
+          "detail": "Use Ubersuggest/Keyword Planner to find 15-20 India-relevant keywords our ICP searches. Deliverable: keyword list with volumes.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Ubersuggest",
+            "url": "https://neilpatel.com/ubersuggest/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build the topic cluster plan",
+          "detail": "Group keywords into a hub-and-spoke plan of 10 blog topics. Deliverable: blog topic plan.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft blog post 1",
+          "detail": "Outline and draft the first blog post (e.g., a practical guide for the ICP), ~1000 words. Deliverable: blog draft.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Claude",
+            "url": "https://claude.ai/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "focus": "Publish first blog",
+      "tasks": [
+        {
+          "title": "Finish and edit blog post 1",
+          "detail": "Polish blog post 1 to final: intro hook, subheads, examples, CTA, ~1000 words in brand voice. Deliverable: final blog post.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "SEO-optimize and publish",
+          "detail": "Add the target keyword, meta title/description, internal links and an image with alt text; publish with Nishanth. Deliverable: live blog post.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Search Console",
+            "url": "https://search.google.com/search-console"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Repurpose the blog into social posts",
+          "detail": "Turn blog post 1 into a carousel and 2 short posts to promote it and drive traffic. Deliverable: 3 promo assets.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "focus": "First case study",
+      "tasks": [
+        {
+          "title": "Write the first case study",
+          "detail": "Turn the spec D2C campaign into a full case study using the template (challenge, approach, work, imagined results). Deliverable: case study doc.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Design the case-study visual",
+          "detail": "Produce the on-brand case-study graphic/PDF for the portfolio and social. Deliverable: case-study visual.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Publish the case study to the site",
+          "detail": "Add the case study to the portfolio page with Nishanth and cross-post a highlight to social. Deliverable: live case study.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "focus": "Batch two weeks of content",
+      "tasks": [
+        {
+          "title": "Batch-produce 2 weeks of social posts",
+          "detail": "Design and write 14+ finished posts (graphics + captions + hashtags) from the calendar, scheduled-ready. Deliverable: 2-week content bank.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Run Week 4 review + baseline metrics",
+          "detail": "Review content engine outputs and record baseline follower/reach numbers before launch. Deliverable: baseline metrics note.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "focus": "Launch social channels",
+      "tasks": [
+        {
+          "title": "Launch Instagram + LinkedIn",
+          "detail": "Publish optimized bios, link-in-bio, highlights/featured, and the first 3 posts on both channels. Deliverable: live, populated profiles.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up scheduling in the scheduler",
+          "detail": "Load the 2-week content bank into Buffer/Meta Business Suite with a posting schedule. Deliverable: queued content.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Buffer",
+            "url": "https://buffer.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up a link-in-bio hub",
+          "detail": "Create a simple link hub (site, services, lead magnet, contact) for the bios. Deliverable: link hub live.",
+          "category": "build",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "focus": "Lead magnet",
+      "tasks": [
+        {
+          "title": "Create the lead-magnet asset",
+          "detail": "Design a genuinely useful lead magnet for the ICP (e.g., 'Social Media Starter Kit for Indian D2C Brands' checklist/guide PDF). Deliverable: polished lead-magnet PDF.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the lead-magnet promo copy",
+          "detail": "Write the promo hook, landing blurb, and 3 social posts driving downloads. Deliverable: promo copy set.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "focus": "Lead-capture system",
+      "tasks": [
+        {
+          "title": "Build the lead-capture landing + form",
+          "detail": "With Nishanth, create the landing page and opt-in form that delivers the lead magnet. Deliverable: working capture flow.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Forms",
+            "url": "https://forms.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the welcome email sequence",
+          "detail": "Write a 3-email welcome sequence (deliver magnet, tell story, soft CTA to a call). Deliverable: email sequence copy.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Mailchimp",
+            "url": "https://mailchimp.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Connect email delivery",
+          "detail": "Set up the email tool to auto-deliver the magnet and enroll subscribers in the sequence. Deliverable: automation live.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Mailchimp",
+            "url": "https://mailchimp.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "focus": "Inbound engine running",
+      "tasks": [
+        {
+          "title": "Schedule the next 2 weeks of posts",
+          "detail": "Produce/queue another 2 weeks of posts so the feed never goes quiet. Deliverable: content queued through the month.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "Buffer",
+            "url": "https://buffer.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write 3 LinkedIn thought-leadership posts",
+          "detail": "Write 3 personal-brand LinkedIn posts (insights + proof) to build founder-led inbound. Deliverable: 3 LinkedIn posts.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up engagement routine",
+          "detail": "Define a daily 20-min engagement routine (comment on ICP + partner accounts) and document it. Deliverable: engagement SOP.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "focus": "Outbound foundations",
+      "tasks": [
+        {
+          "title": "Design the outbound approach",
+          "detail": "Choose channels (email + LinkedIn DM), sequence length, and personalization rules for outbound. Deliverable: outbound playbook.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the outreach tracker",
+          "detail": "Create a CRM-lite tracker (prospect, channel, status, next step, notes) in Sheets/Notion. Deliverable: outreach tracker.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Sheets",
+            "url": "https://sheets.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the cold outreach templates",
+          "detail": "Write 3 cold email + 2 LinkedIn DM templates that lead with value and reference the lead magnet. Deliverable: outreach template set.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "focus": "Referral & partnerships",
+      "tasks": [
+        {
+          "title": "Design the referral program",
+          "detail": "Create a simple referral offer (incentive + how it works) to turn contacts into a channel. Deliverable: referral program one-pager.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "List potential partners",
+          "detail": "Identify 10 complementary businesses (web devs, photographers, PR) for cross-referral. Deliverable: partner list.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft the community engagement plan",
+          "detail": "Plan where to be active (relevant Indian FB/LinkedIn/WhatsApp communities) and how to add value. Deliverable: community plan.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "focus": "Lead magnet live push",
+      "tasks": [
+        {
+          "title": "Launch the lead-magnet campaign",
+          "detail": "Push the lead magnet live across all channels with the promo posts and test the full download-to-email flow end to end. Deliverable: live campaign + verified funnel.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Boost reach with LinkedIn + community shares",
+          "detail": "Share the lead magnet in relevant Indian LinkedIn and community groups with value-first framing. Deliverable: distribution done + logged.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run Week 5 review + funnel check",
+          "detail": "Review early lead numbers, confirm tracking on the funnel, and plan Week 6 outreach.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "focus": "Prospect list built",
+      "tasks": [
+        {
+          "title": "Build a 50-business prospect list",
+          "detail": "Research and compile 50 ICP-fit Indian businesses with contact, channel, and a personalization hook each in the tracker. Deliverable: 50-prospect list.",
+          "category": "sales",
+          "minutes": 150,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Segment and prioritize prospects",
+          "detail": "Tag prospects by niche and fit (A/B/C) and pick the first 20 to contact. Deliverable: prioritized tiers.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "focus": "First outreach batch",
+      "tasks": [
+        {
+          "title": "Personalize and send outreach batch 1",
+          "detail": "Personalize the templates and send the first 20 outreach emails; log each in the tracker. (Send from the brand inbox only after a teammate reviews the batch.) Deliverable: 20 sent + logged.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run LinkedIn connection + DM outreach",
+          "detail": "Send 15 personalized LinkedIn connections/DMs to prospects and engage with their content. Deliverable: 15 touches logged.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": {
+            "label": "LinkedIn",
+            "url": "https://www.linkedin.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set follow-up reminders",
+          "detail": "Schedule follow-up cadence (day 3, 7, 12) for every contact in the tracker. Deliverable: follow-up schedule set.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "focus": "Proposal system",
+      "tasks": [
+        {
+          "title": "Build the proposal template",
+          "detail": "Create a reusable, on-brand proposal template (problem, plan, deliverables, timeline, INR pricing, terms, CTA). Deliverable: proposal template.",
+          "category": "sales",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Slides",
+            "url": "https://slides.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the proposal core copy",
+          "detail": "Write the standard proposal copy blocks and pricing framing so proposals take 20 min to customize. Deliverable: proposal copy library.",
+          "category": "sales",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "focus": "Sales collateral",
+      "tasks": [
+        {
+          "title": "Create the capabilities deck",
+          "detail": "Build a 10-slide pitch/capabilities deck (positioning, services, proof, process, pricing, CTA) for calls. Deliverable: pitch deck.",
+          "category": "sales",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Slides",
+            "url": "https://slides.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Design the service sell-sheet",
+          "detail": "Create a 1-page service one-pager to send after first contact. Deliverable: sell-sheet PDF.",
+          "category": "sales",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "focus": "Discovery call prep",
+      "tasks": [
+        {
+          "title": "Write the discovery-call script",
+          "detail": "Build a discovery script + pre-call questionnaire that qualifies budget, goals and fit. Deliverable: call script + questionnaire.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write an objection-handling guide",
+          "detail": "Document the top 8 objections (price, timing, trust, DIY) with responses. Deliverable: objection guide.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write follow-up email templates",
+          "detail": "Write post-call follow-up + proposal-send + nudge templates. Deliverable: follow-up templates.",
+          "category": "sales",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "focus": "Outreach round 2 + nurture",
+      "tasks": [
+        {
+          "title": "Send follow-ups + outreach batch 2",
+          "detail": "Send scheduled follow-ups and the next 15 personalized outreach messages; keep the tracker current. Deliverable: batch 2 + follow-ups logged.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create lead-nurture content",
+          "detail": "Produce 3 pieces (post/DM/email) that warm leads with proof and case-study snippets. Deliverable: nurture content.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Update the pipeline",
+          "detail": "Review responses, move deals through stages, and note next actions for each. Deliverable: updated pipeline.",
+          "category": "sales",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "focus": "Discovery-call readiness",
+      "tasks": [
+        {
+          "title": "Roleplay and refine discovery calls",
+          "detail": "Run 2 mock discovery calls with the team using the script, refine it, and prep for real calls. Deliverable: call-ready script + notes.",
+          "category": "sales",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Draft a sample custom proposal",
+          "detail": "Build one real proposal from the template for a warm prospect to prove the flow works end to end. Deliverable: sample proposal.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Slides",
+            "url": "https://slides.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run Week 6 review + pipeline update",
+          "detail": "Review outreach response rates, update the pipeline, and plan Week 7 delivery systems.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "focus": "Content delivery SOP",
+      "tasks": [
+        {
+          "title": "Write the content-creation SOP",
+          "detail": "Document the end-to-end content workflow (brief, ideate, draft, design, approve, schedule, report) with roles + tools. Deliverable: Content SOP.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Define the approval workflow",
+          "detail": "Set the client + internal approval flow and turnaround rules to avoid bottlenecks. Deliverable: approval workflow.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "focus": "Social management SOP",
+      "tasks": [
+        {
+          "title": "Build the social-management SOP",
+          "detail": "Document how a client's social is run monthly: planning, batching, scheduling, community mgmt, reporting. Deliverable: Social SOP.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create the client content-calendar template",
+          "detail": "Adapt the internal calendar into a client-facing content calendar template. Deliverable: client calendar template.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Sheets",
+            "url": "https://sheets.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Define the community-management playbook",
+          "detail": "Write rules for responding to comments/DMs on client accounts (tone, escalation, response times). Deliverable: community-management playbook.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "focus": "Client onboarding kit",
+      "tasks": [
+        {
+          "title": "Design the client onboarding kit",
+          "detail": "Build the onboarding kit: welcome doc, brand intake questionnaire, asset-request checklist, timeline, and comms plan. Deliverable: onboarding kit.",
+          "category": "delivery",
+          "minutes": 150,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the kickoff-call agenda",
+          "detail": "Write a standard kickoff-call agenda + expectations doc for new clients. Deliverable: kickoff agenda.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "focus": "First client kickoff",
+      "tasks": [
+        {
+          "title": "Run client onboarding + brand discovery",
+          "detail": "Onboard the first client: run the brand discovery/intake and capture goals, audience, and voice. Deliverable: completed intake.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build the client content strategy",
+          "detail": "Turn intake into a content strategy (pillars, cadence, goals) for the client's month 1. Deliverable: client strategy doc.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up the client workspace + access",
+          "detail": "Create the client's folder, shared calendar and gather brand assets/logins needed to start. Deliverable: client workspace ready.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Workspace",
+            "url": "https://workspace.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "focus": "First client content",
+      "tasks": [
+        {
+          "title": "Build the client's month-1 calendar",
+          "detail": "Plan the client's first-month content calendar mapped to their goals. Deliverable: client month-1 calendar.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Sheets",
+            "url": "https://sheets.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Design the first client post batch",
+          "detail": "Create the client's first week of on-brand posts (graphics + captions) for approval. Deliverable: client post batch 1.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "focus": "Client reporting",
+      "tasks": [
+        {
+          "title": "Build the monthly reporting template",
+          "detail": "Create a client-facing monthly report template (reach, engagement, growth, wins, next month). Deliverable: report template.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Slides",
+            "url": "https://slides.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up client analytics tracking",
+          "detail": "Set up tracking/access (Meta insights, GA4 if web) so reporting pulls real numbers. Deliverable: tracking configured.",
+          "category": "setup",
+          "minutes": 60,
+          "resource": {
+            "label": "Meta Business Suite",
+            "url": "https://business.facebook.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Schedule the client's next post batch",
+          "detail": "Design and queue the client's second week of posts so delivery stays ahead of schedule. Deliverable: client post batch 2 queued.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": {
+            "label": "Buffer",
+            "url": "https://buffer.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "focus": "First client delivery",
+      "tasks": [
+        {
+          "title": "Deliver the first client content batch",
+          "detail": "Get client approval and publish/schedule the first batch, then log delivery. Deliverable: first client content live.",
+          "category": "delivery",
+          "minutes": 120,
+          "resource": {
+            "label": "Buffer",
+            "url": "https://buffer.com/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Collect a first-delivery testimonial ask",
+          "detail": "Send the client a short satisfaction check and set the expectation to ask for a testimonial after results land. Deliverable: feedback request sent.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run Week 7 review + refine SOPs",
+          "detail": "Capture what worked in the first delivery, refine the SOPs, and plan Week 8 optimization.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "focus": "Analytics review",
+      "tasks": [
+        {
+          "title": "Analyze 30 days of channel analytics",
+          "detail": "Pull agency Instagram + LinkedIn + website data and identify top/bottom content and best times. Deliverable: analytics review.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the content performance report",
+          "detail": "Summarize what content drives reach, saves and leads, with 3 concrete changes. Deliverable: performance report.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Business Suite",
+            "url": "https://business.facebook.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Audit the lead funnel conversion",
+          "detail": "Trace the funnel from reach to lead-magnet download to booked call and find the biggest drop-off. Deliverable: funnel audit + fix list.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "focus": "Offer optimization",
+      "tasks": [
+        {
+          "title": "Refine service packages from feedback",
+          "detail": "Adjust package scope/naming based on outreach + first-client learnings to reduce friction. Deliverable: v2 packages.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Update pricing and add-ons",
+          "detail": "Tune INR pricing and add-ons for better conversion and margin; update the pricing page copy. Deliverable: updated pricing.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up a messaging A/B test",
+          "detail": "Draft 2 hero/headline variants to test which positioning converts better. Deliverable: A/B variants.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "focus": "Testimonials & proof",
+      "tasks": [
+        {
+          "title": "Collect and design testimonials",
+          "detail": "Request and collect testimonials (first client + any early wins) and design testimonial graphics. Deliverable: testimonial assets.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Update case studies with results",
+          "detail": "Refresh case studies with any real numbers/quotes now available. Deliverable: updated case studies.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add proof across site + social",
+          "detail": "Place testimonials and updated proof on the homepage, service pages, and a social highlight with Nishanth. Deliverable: proof live.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "focus": "Referral activation",
+      "tasks": [
+        {
+          "title": "Launch the referral program",
+          "detail": "Publish the referral offer to contacts and clients with clear how-to and incentives. Deliverable: referral program live.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run partner outreach",
+          "detail": "Reach out to the 10 partner prospects with a cross-referral proposal. Deliverable: partner outreach sent + logged.",
+          "category": "sales",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Design referral promo assets",
+          "detail": "Create the graphics and message templates clients/partners can share to refer easily. Deliverable: referral asset kit.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "focus": "Content system tune-up",
+      "tasks": [
+        {
+          "title": "Optimize templates from performance data",
+          "detail": "Update the Canva templates and formats toward what performed best in the analytics. Deliverable: v2 templates.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build the repurposing system",
+          "detail": "Create a 1-to-many repurposing workflow (blog to carousel to reel to email) to multiply output. Deliverable: repurposing SOP.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "focus": "Paid ads foundation",
+      "tasks": [
+        {
+          "title": "Plan the first paid social campaign",
+          "detail": "Design a small-budget Meta Ads plan (objective, audience, INR budget, offer) to amplify the lead magnet. Deliverable: ad campaign plan.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": {
+            "label": "Meta Ads Manager",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the ad creatives + copy",
+          "detail": "Produce 3 ad creatives with variant hooks and primary-text copy, ready to launch. Deliverable: ad set + copy.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "focus": "Performance dashboard",
+      "tasks": [
+        {
+          "title": "Build the marketing performance dashboard",
+          "detail": "Create a single dashboard (Sheets/Looker) tracking leads, followers, engagement, traffic and pipeline for the monthly review. Deliverable: live dashboard.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Sheets",
+            "url": "https://sheets.google.com/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Write the monthly marketing review",
+          "detail": "Use the dashboard to write the first monthly review with wins, misses, and next-month priorities. Deliverable: monthly review doc.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Run Week 8 review + plan launch",
+          "detail": "Review optimization results and plan the Week 9 public launch campaign.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "focus": "Launch campaign build",
+      "tasks": [
+        {
+          "title": "Plan the public launch campaign",
+          "detail": "Design the launch: message, channels, sequence, and a limited launch offer for first clients. Deliverable: launch plan.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create the launch content assets",
+          "detail": "Produce all launch assets: announcement posts, reel/video, story sequence, and email. Deliverable: launch asset pack.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva",
+            "url": "https://www.canva.com"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Prep the launch offer + landing",
+          "detail": "Finalize the launch offer copy and confirm the landing/booking flow with Nishanth. Deliverable: launch offer ready.",
+          "category": "marketing",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "focus": "Public launch",
+      "tasks": [
+        {
+          "title": "Execute the public launch",
+          "detail": "Go live across Instagram, LinkedIn, Facebook and email with the campaign; engage with every response in real time. Deliverable: launched agency.",
+          "category": "marketing",
+          "minutes": 150,
+          "resource": {
+            "label": "Instagram",
+            "url": "https://www.instagram.com/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Send the launch announcement",
+          "detail": "Send the launch email to the list and share to partners/communities. (Send from the brand accounts after a teammate reviews.) Deliverable: announcement sent.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Mailchimp",
+            "url": "https://mailchimp.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "focus": "Launch analysis & retro",
+      "tasks": [
+        {
+          "title": "Analyze launch performance",
+          "detail": "Pull launch metrics (reach, leads, calls booked) and write what worked and what to fix. Deliverable: launch report.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Analytics",
+            "url": "https://analytics.google.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run the team retrospective",
+          "detail": "Facilitate a 60-day retro with Nishanth and Afeeda: wins, misses, and process fixes. Deliverable: retro notes + actions.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Nurture and follow up launch leads",
+          "detail": "Personally follow up with every lead and booked call from the launch to move them toward proposals. Deliverable: leads followed up + logged.",
+          "category": "sales",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "focus": "Next-quarter plan",
+      "tasks": [
+        {
+          "title": "Build the Q2 marketing plan",
+          "detail": "Write the next-quarter marketing roadmap: goals, priority channels, content plan, and lead targets. Deliverable: Q2 plan.",
+          "category": "marketing",
+          "minutes": 120,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Document the brand & marketing playbook",
+          "detail": "Consolidate brand, content, and sales SOPs into a single living Marketing Playbook for the team. Deliverable: Marketing Playbook.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": {
+            "label": "Notion",
+            "url": "https://www.notion.so"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Final review + celebrate",
+          "detail": "Review the full 60 days against goals, archive assets, and celebrate the launch with the team.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    }
+  ]
+}

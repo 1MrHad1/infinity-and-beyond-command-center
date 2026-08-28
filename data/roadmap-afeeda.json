@@ -1,0 +1,2066 @@
+{
+  "person": "Afeeda M.A",
+  "slug": "afeeda",
+  "role": "Junior Digital Marketer (Learning Track)",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "WordPress + Elementor Foundations",
+      "goal": "Learn how websites and WordPress work, and build your first practice site in Elementor."
+    },
+    {
+      "week": 2,
+      "theme": "WordPress Mastery + Shopify Start",
+      "goal": "Finish a second polished WordPress site, then begin Shopify fundamentals."
+    },
+    {
+      "week": 3,
+      "theme": "Shopify Store Building + Meta Ads Intro",
+      "goal": "Complete a full demo Shopify store and start learning paid social on Meta."
+    },
+    {
+      "week": 4,
+      "theme": "Meta Ads & Paid Social",
+      "goal": "Learn to structure, target, and draft real Meta ad campaigns properly."
+    },
+    {
+      "week": 5,
+      "theme": "SEO + HTML/CSS Foundations",
+      "goal": "Master SEO fundamentals and gain real HTML/CSS coding skill to tweak sites."
+    },
+    {
+      "week": 6,
+      "theme": "Content, Canva, Email & Analytics",
+      "goal": "Create content and designs, build email flows, and read data in GA4 and Search Console."
+    },
+    {
+      "week": 7,
+      "theme": "Applying Skills to Agency Work",
+      "goal": "Shadow the team and ship your first real contributions to agency projects."
+    },
+    {
+      "week": 8,
+      "theme": "Owning Real Deliverables",
+      "goal": "Own a landing page, product setup, ad set, and email end-to-end with review."
+    },
+    {
+      "week": 9,
+      "theme": "Capstone & Growth Plan",
+      "goal": "Build a complete small-business site + funnel and plan your next 30 days."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "focus": "Setup & the big picture",
+      "tasks": [
+        {
+          "title": "Map the digital marketing landscape",
+          "detail": "Complete modules 1-3 of Google Digital Garage 'Fundamentals of Digital Marketing' and note where web dev, SEO, ads, and content each fit in an agency.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Digital Garage - Fundamentals of Digital Marketing",
+            "url": "https://learndigital.withgoogle.com/digitalgarage"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up your learning workspace",
+          "detail": "Create a Google Drive folder 'Afeeda-Learning' with a daily learning log doc, bookmark every course link, and share the log with Nishanth and Rohini.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn how websites and WordPress work",
+          "detail": "Read WordPress.org's intro docs on domains, hosting, CMS, themes and plugins; write 5 clear notes explaining each in your own words.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "WordPress.org Documentation",
+            "url": "https://wordpress.org/documentation/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "focus": "WordPress dashboard basics",
+      "tasks": [
+        {
+          "title": "Spin up a free WordPress sandbox",
+          "detail": "Launch a throwaway site in WordPress Playground (or a free InstaWP site) and explore the admin dashboard end to end.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "WordPress Playground (free sandbox)",
+            "url": "https://playground.wordpress.net/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Take the WordPress beginner lessons",
+          "detail": "Work through Learn WordPress beginner lessons on posts vs pages, media library, users and Settings.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Learn WordPress (official lessons)",
+            "url": "https://learn.wordpress.org/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create your first pages and posts",
+          "detail": "Add Home, About and Contact pages plus 2 blog posts with images, then set a static homepage. Checkpoint: paste screenshots into your log.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "focus": "Meet Elementor",
+      "tasks": [
+        {
+          "title": "Install Elementor and the Hello theme",
+          "detail": "Follow Elementor Academy 'Getting Started' to install Elementor (free) and the Hello Elementor theme on your sandbox.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn the Elementor editor",
+          "detail": "Watch a beginner Elementor build video and learn sections, containers, columns, widgets and drag-and-drop.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Ferdy Korpershoek - Elementor tutorials",
+            "url": "https://www.youtube.com/@FerdyKorpershoek"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Rebuild your homepage in Elementor",
+          "detail": "Recreate your Home page hero and an about section using containers and widgets. Checkpoint: mobile preview looks clean.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "focus": "Layout & responsive design",
+      "tasks": [
+        {
+          "title": "Master containers, flexbox and spacing",
+          "detail": "Study Elementor Academy lessons on flex containers, padding, margin and gap so layouts behave predictably.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build a responsive services section",
+          "detail": "Create a 3-column services block that stacks neatly on mobile; test the tablet and mobile views.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set global fonts and colors (brand kit)",
+          "detail": "Configure global colors and typography and write 3 lines on why brand consistency matters. Checkpoint: 5-question self-quiz.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "focus": "Practice Site 1 - Mysore cafe",
+      "tasks": [
+        {
+          "title": "Plan Practice Site 1",
+          "detail": "Sketch a sitemap (Home, Menu, About, Contact) for a fictional Mysore cafe and collect free images from Pexels.",
+          "category": "build",
+          "minutes": 60,
+          "resource": {
+            "label": "Pexels - free stock photos",
+            "url": "https://www.pexels.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build the Home and Menu pages",
+          "detail": "Build a hero, featured items and a menu list with prices in INR using Elementor containers.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add a header and footer",
+          "detail": "Create a simple nav header and a footer with contact details and an embedded map (note where Elementor Pro Theme Builder differs from free).",
+          "category": "practice",
+          "minutes": 90,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "focus": "Forms & finishing Site 1",
+      "tasks": [
+        {
+          "title": "Learn plugins and contact forms",
+          "detail": "Install a free forms plugin (Fluent Forms or WPForms Lite) and learn how to install, activate and configure plugins.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "WordPress.org Plugin Directory",
+            "url": "https://wordpress.org/plugins/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Add a contact form, map and WhatsApp chat",
+          "detail": "Build a working contact form, embedded Google Map, and a WhatsApp click-to-chat button (handy for Indian small businesses).",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Finish and polish Practice Site 1",
+          "detail": "Complete About and Contact, fix spacing, and verify mobile. Milestone: Practice Site 1 is complete.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "focus": "Week 1 review & reflect",
+      "tasks": [
+        {
+          "title": "Take the Week 1 self-quiz",
+          "detail": "Answer 10 questions on WordPress/Elementor terms (theme, plugin, widget, container, responsive) and log your score.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Show Practice Site 1 to the team",
+          "detail": "Walk Nishanth and Rohini through Site 1 and record their feedback in your log.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Consolidate notes and fix weak spots",
+          "detail": "Revisit any shaky topic, tidy screenshots and notes into a clean Week 1 summary.",
+          "category": "learn",
+          "minutes": 105,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Plan Week 2",
+          "detail": "Skim next week's tasks and list any questions for the team.",
+          "category": "admin",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "focus": "Practice Site 2 - agency site",
+      "tasks": [
+        {
+          "title": "Learn templates and template kits",
+          "detail": "Study Elementor Academy on templates and kits, then import a free starter kit into a fresh site.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Start Practice Site 2",
+          "detail": "Plan a small agency website and import a starter kit, restyling it toward an 'Infinity & Beyond' look.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Customize hero and services",
+          "detail": "Replace all placeholder content, apply brand colors, and add INR pricing tiers.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "focus": "Advanced Elementor widgets",
+      "tasks": [
+        {
+          "title": "Learn tabs, accordions, testimonials, CTA",
+          "detail": "Go deep on interactive widgets in Elementor Academy and when to use each.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Elementor Academy",
+            "url": "https://elementor.com/academy/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build About and Services detail pages",
+          "detail": "Use an FAQ accordion and a testimonial carousel on Site 2's inner pages.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add tasteful animations",
+          "detail": "Apply subtle entrance animations and learn why restraint keeps pages professional.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "focus": "Menus, blog & images",
+      "tasks": [
+        {
+          "title": "Learn menus and the blog archive",
+          "detail": "Set up WordPress navigation menus, categories, and a blog archive layout.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "WordPress.org Documentation",
+            "url": "https://wordpress.org/documentation/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Add a blog with 2 posts",
+          "detail": "Create a blog page with featured images and categories on Site 2.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn image optimization",
+          "detail": "Compress images with TinyPNG, add alt text, and note why page speed matters for SEO and ads.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "TinyPNG - image compression",
+            "url": "https://tinypng.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "focus": "Finish Site 2 + QA",
+      "tasks": [
+        {
+          "title": "Finish and polish Practice Site 2",
+          "detail": "Complete every page and run a mobile QA pass. Milestone: Practice Site 2 is complete.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Run a basic site QA checklist",
+          "detail": "Check broken links, mobile layout, favicon, site title/tagline, and test the contact form.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Peer review with the team",
+          "detail": "Give a 15-minute walkthrough of Site 2 and capture feedback to act on.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "focus": "Shopify fundamentals",
+      "tasks": [
+        {
+          "title": "Learn how Shopify works",
+          "detail": "Use Shopify Learn plus Help Center basics to understand hosted ecommerce and how it differs from WordPress.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Shopify Learn",
+            "url": "https://www.shopify.com/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Start a free Shopify trial store",
+          "detail": "Create a trial/development store and explore the admin.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Study store anatomy",
+          "detail": "Learn products, collections, pages, navigation, themes and checkout, and note the parts you don't understand yet.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "focus": "Products & collections",
+      "tasks": [
+        {
+          "title": "Learn to add products properly",
+          "detail": "Study titles, descriptions, images, variants, SKUs, pricing and inventory in Shopify Help.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Add 8-10 demo products",
+          "detail": "Build a demo Indian D2C store (e.g. dry fruits or handmade soaps) with prices in INR and a note on GST.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Create collections",
+          "detail": "Set up manual and automated collections to organize the catalog.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "focus": "Store design + review",
+      "tasks": [
+        {
+          "title": "Customize a free Shopify theme",
+          "detail": "Use the Dawn theme editor to build a homepage with hero, featured collection, logo and brand colors.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Add pages, navigation and policies",
+          "detail": "Create About, Contact and India-appropriate refund/shipping policy pages plus header and footer menus.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Week 2 review + Shopify self-quiz",
+          "detail": "Show the WP sites and store progress to the team and take a 10-question Shopify quiz.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "focus": "Checkout, shipping, payments",
+      "tasks": [
+        {
+          "title": "Learn checkout, shipping and payments in India",
+          "detail": "Study shipping zones and rates, COD context, and Razorpay/Shopify Payments (learn only, no real payout setup).",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Configure shipping and taxes (test)",
+          "detail": "Set up domestic shipping zones and a free-shipping threshold, then place a test order in test mode.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn discounts and promotions",
+          "detail": "Set up a discount code and an automatic discount on the demo store.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "focus": "Finish the demo store",
+      "tasks": [
+        {
+          "title": "Complete the demo store end to end",
+          "detail": "Finalize products, collections, pages, navigation, homepage and a discount, then run a full test order. Milestone: demo store complete.",
+          "category": "build",
+          "minutes": 150,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Run the store QA checklist",
+          "detail": "Check mobile view, images, prices, policies and test checkout.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Show the store to the team",
+          "detail": "Walk the team through the store and capture feedback.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "focus": "Apps + PDP conversion",
+      "tasks": [
+        {
+          "title": "Explore the Shopify App Store",
+          "detail": "Learn essential app categories (reviews, upsell, email) and how app bloat hurts speed; list 3 useful, 3 to avoid.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Shopify App Store",
+            "url": "https://apps.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn product-page conversion basics",
+          "detail": "Study what makes a PDP convert: strong images, trust signals, reviews and a clear CTA.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Improve 3 product pages",
+          "detail": "Rewrite descriptions and add trust elements to 3 PDPs on the demo store.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "focus": "Platform choice for clients",
+      "tasks": [
+        {
+          "title": "Compare WooCommerce vs Shopify",
+          "detail": "Learn the pros, cons and INR cost trade-offs so you can advise agency clients.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write a client platform recommendation",
+          "detail": "Draft a 1-page pick (Shopify vs WooCommerce) for a fictional Mysore boutique, with reasons.",
+          "category": "marketing",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Preview ecommerce SEO basics",
+          "detail": "Learn product/collection titles, meta descriptions and image alt for stores.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Search Central - SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Share the recommendation doc",
+          "detail": "Get Nishanth's feedback on your platform recommendation.",
+          "category": "delivery",
+          "minutes": 30,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "focus": "Meta Ads foundations",
+      "tasks": [
+        {
+          "title": "Learn how paid social works",
+          "detail": "Take Meta Blueprint intro courses on how Meta ads work and the available objectives.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn Ads Manager account structure",
+          "detail": "Understand the Campaign -> Ad Set -> Ad hierarchy and where budget, audience and placements live.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Explore Ads Manager (no spend)",
+          "detail": "Tour the Ads Manager interface and identify each level; do not create anything live yet.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "focus": "Objectives & structure",
+      "tasks": [
+        {
+          "title": "Learn to choose the right objective",
+          "detail": "Study Awareness, Traffic, Engagement, Leads and Sales and match each to a business goal.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn budgets, bidding and schedule",
+          "detail": "Understand daily vs lifetime budgets, CBO vs ABO, and realistic INR budgets for small businesses.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft a campaign plan",
+          "detail": "Write an objective and structure for a fictional Mysore boutique campaign.",
+          "category": "marketing",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "focus": "Audiences + week review",
+      "tasks": [
+        {
+          "title": "Learn core, custom and lookalike audiences",
+          "detail": "Study targeting by interests, custom audiences and lookalikes, plus the retargeting concept.",
+          "category": "learn",
+          "minutes": 105,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build saved audiences (draft)",
+          "detail": "Create 2-3 saved audience definitions in Ads Manager without publishing anything.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Week 3 review + Meta quiz",
+          "detail": "Show the demo store and ad plan to the team and take a 10-question Meta ads quiz.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "focus": "Pixel & tracking",
+      "tasks": [
+        {
+          "title": "Learn the Meta Pixel and Conversions API",
+          "detail": "Study why tracking matters, standard events and privacy basics.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Walk through a pixel setup concept",
+          "detail": "Learn how a pixel goes on a WordPress or Shopify site and how events like Purchase and Lead fire.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Document a pixel setup plan",
+          "detail": "Write the step-by-step to add a pixel to a WordPress client site.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "focus": "Creative that converts",
+      "tasks": [
+        {
+          "title": "Learn ad formats and creative best practice",
+          "detail": "Study image, video, carousel and Reels formats plus hooks, copy and CTA principles.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Design 3 ad creatives in Canva",
+          "detail": "Create 3 on-brand ad creatives at correct sizes for the boutique.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva Design School",
+            "url": "https://www.canva.com/designschool/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write ad copy variations",
+          "detail": "Write 3 primary texts and headlines, including one Kannada or Hindi version for the local market.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "focus": "Build a full campaign (draft)",
+      "tasks": [
+        {
+          "title": "Assemble a full campaign in Ads Manager (draft)",
+          "detail": "Create objective, ad set (audience/budget/placements) and 3 ads, left paused/in draft. Milestone: first full campaign drafted.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Learn placements",
+          "detail": "Study Instagram vs Facebook placements and when to use Advantage+ vs manual.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Review the campaign draft with Rohini",
+          "detail": "Get feedback on targeting and creative and note changes.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "focus": "Measurement & optimization",
+      "tasks": [
+        {
+          "title": "Learn key ad metrics",
+          "detail": "Understand CTR, CPC, CPM, CPL, ROAS and frequency, and what 'good' looks like in India.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn A/B testing and iteration",
+          "detail": "Study testing creatives and audiences, and when to scale or kill an ad.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Meta Blueprint (free courses)",
+            "url": "https://www.facebook.com/business/learn"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build a reporting template",
+          "detail": "Create a sheet listing the KPIs to track weekly for a client.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "focus": "Other paid channels",
+      "tasks": [
+        {
+          "title": "Learn Google Ads basics",
+          "detail": "Take a Skillshop intro to Search, Display and Performance Max and how they differ from Meta.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Skillshop",
+            "url": "https://skillshop.withgoogle.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn when to use which channel",
+          "detail": "Compare Meta vs Google vs organic for small Indian businesses.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write a channel-mix recommendation",
+          "detail": "Draft a 1-pager splitting a sample INR budget across channels for one client.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "focus": "SEO fundamentals start",
+      "tasks": [
+        {
+          "title": "Learn how search works",
+          "detail": "Read Google's SEO Starter Guide on how Google crawls, indexes and ranks.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Search Central - SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn on-page SEO basics",
+          "detail": "Study titles, meta descriptions, headings, URLs and internal links.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Google Search Central - SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Optimize Practice Site 2 pages",
+          "detail": "Rewrite 3 titles, meta descriptions and heading structures on Site 2.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "focus": "Keywords + week review",
+      "tasks": [
+        {
+          "title": "Learn keyword research",
+          "detail": "Study search intent and free tools: Google autocomplete, Keyword Planner and AnswerThePublic.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Keyword Planner",
+            "url": "https://ads.google.com/home/tools/keyword-planner/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build a keyword map",
+          "detail": "Create 15 keywords for a Mysore service business grouped by intent (informational vs commercial).",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Week 4 review + quiz",
+          "detail": "Show the campaign draft and SEO edits and take a 10-question ads + SEO quiz.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "focus": "Technical SEO basics",
+      "tasks": [
+        {
+          "title": "Learn speed, mobile and indexing",
+          "detail": "Study Core Web Vitals, mobile-first indexing and how crawling/indexing work.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "web.dev - Learn (performance & CWV)",
+            "url": "https://web.dev/learn/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn sitemaps and robots.txt",
+          "detail": "Understand what they do and how a WordPress SEO plugin generates them.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "Google Search Central - SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Install and configure an SEO plugin",
+          "detail": "Set up Yoast or Rank Math on Practice Site 2 with titles, meta and an XML sitemap.",
+          "category": "build",
+          "minutes": 90,
+          "resource": {
+            "label": "WordPress.org Plugin Directory",
+            "url": "https://wordpress.org/plugins/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "focus": "Local SEO (India)",
+      "tasks": [
+        {
+          "title": "Learn local SEO and Google Business Profile",
+          "detail": "Study NAP consistency, categories and reviews, and why GBP is vital for Mysore SMBs.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Business Profile Help",
+            "url": "https://support.google.com/business/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft a GBP optimization checklist",
+          "detail": "Write a practical checklist to optimize a local client's Business Profile.",
+          "category": "marketing",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "On-page SEO recap quiz",
+          "detail": "Self-test the SEO terms and rules you learned this week.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "focus": "HTML basics (real coding)",
+      "tasks": [
+        {
+          "title": "Learn HTML fundamentals",
+          "detail": "Work through freeCodeCamp/MDN on elements, structure, headings, links, images and lists.",
+          "category": "learn",
+          "minutes": 120,
+          "resource": {
+            "label": "freeCodeCamp - Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Hand-code a simple page",
+          "detail": "Build an HTML page about a Mysore cafe entirely from scratch in a code editor.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": {
+            "label": "MDN - Learn HTML",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn semantic HTML and accessibility",
+          "detail": "Study header/nav/main/footer and proper alt text.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "MDN - Learn HTML",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/HTML"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 32,
+      "focus": "CSS basics",
+      "tasks": [
+        {
+          "title": "Learn CSS fundamentals",
+          "detail": "Study selectors, colors, the box model, fonts and spacing.",
+          "category": "learn",
+          "minutes": 120,
+          "resource": {
+            "label": "MDN - Learn CSS",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Style your HTML page",
+          "detail": "Apply colors, fonts and layout to your hand-coded cafe page.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": {
+            "label": "MDN - Learn CSS",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn Flexbox for layout",
+          "detail": "Complete freeCodeCamp Flexbox lessons and rebuild a row of cards.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "freeCodeCamp - Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 33,
+      "focus": "Responsive CSS + apply",
+      "tasks": [
+        {
+          "title": "Learn responsive design and media queries",
+          "detail": "Study a mobile-first approach and breakpoints.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "freeCodeCamp - Responsive Web Design",
+            "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Make your page responsive",
+          "detail": "Add media queries and test on mobile. Milestone: a hand-coded, responsive page.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Add custom CSS in WordPress",
+          "detail": "Use custom CSS to tweak a real section on a WordPress site (a genuine agency use case).",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 34,
+      "focus": "Reading & tweaking themes",
+      "tasks": [
+        {
+          "title": "Learn how themes use HTML/CSS",
+          "detail": "Use browser DevTools to inspect elements and find the CSS classes on a live page.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "MDN - Browser DevTools",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Tools_and_setup/What_are_browser_developer_tools"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Tweak a theme with DevTools + CSS",
+          "detail": "Change a button style and spacing on the demo store or a WP site using custom CSS.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn when to code vs use a builder",
+          "detail": "Write 5 lines of judgement on when hand-coding beats a page builder for agency work.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 35,
+      "focus": "SEO + code review",
+      "tasks": [
+        {
+          "title": "Run a mini technical audit",
+          "detail": "Run PageSpeed Insights on Practice Site 2 and list 5 concrete fixes.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Week 5 review with the team",
+          "detail": "Show your hand-coded responsive page, SEO plugin setup and audit.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Build an SEO + HTML/CSS cheat-sheet",
+          "detail": "Consolidate the week into a one-page reference doc you can reuse.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 36,
+      "focus": "Content marketing basics",
+      "tasks": [
+        {
+          "title": "Learn content strategy and copywriting",
+          "detail": "Take HubSpot Academy content/copywriting lessons on value, structure and CTAs.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "HubSpot Academy (free)",
+            "url": "https://academy.hubspot.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write an SEO blog post",
+          "detail": "Write a 600-word SEO post for the Mysore cafe using your keyword map.",
+          "category": "practice",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Learn content for social",
+          "detail": "Study post types, hooks and hashtags for Instagram and Facebook.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": {
+            "label": "HubSpot Academy (free)",
+            "url": "https://academy.hubspot.com/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 37,
+      "focus": "Canva mastery",
+      "tasks": [
+        {
+          "title": "Learn Canva Design School essentials",
+          "detail": "Study brand kit, templates, resizing and exporting in Canva.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Canva Design School",
+            "url": "https://www.canva.com/designschool/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Create the agency social kit",
+          "detail": "Design 5 branded posts, 1 story and 1 Reel cover for Infinity & Beyond. Milestone: brand social kit delivered.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Canva Design School",
+            "url": "https://www.canva.com/designschool/"
+          },
+          "milestone": true
+        },
+        {
+          "title": "Design-principles self-check",
+          "detail": "Quiz yourself on contrast, alignment and visual hierarchy against your kit.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 38,
+      "focus": "Email marketing fundamentals",
+      "tasks": [
+        {
+          "title": "Learn email marketing basics",
+          "detail": "Study list building, segmentation, deliverability and Indian consent norms via HubSpot Academy.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "HubSpot Academy (free)",
+            "url": "https://academy.hubspot.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Set up a free Mailchimp account and list",
+          "detail": "Create an audience, a signup form and tags.",
+          "category": "build",
+          "minutes": 75,
+          "resource": {
+            "label": "Mailchimp Resources / Marketing Library",
+            "url": "https://mailchimp.com/resources/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Design a welcome email",
+          "detail": "Build a template and copy for a D2C brand's welcome email.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": {
+            "label": "Mailchimp Resources / Marketing Library",
+            "url": "https://mailchimp.com/resources/"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 39,
+      "focus": "Email automation",
+      "tasks": [
+        {
+          "title": "Learn automations and funnels",
+          "detail": "Study welcome series and the abandoned-cart concept.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Mailchimp Resources / Marketing Library",
+            "url": "https://mailchimp.com/resources/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Build a 3-email welcome automation (draft)",
+          "detail": "Create a 3-step welcome flow in Mailchimp; do not send it live.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Mailchimp Resources / Marketing Library",
+            "url": "https://mailchimp.com/resources/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write and A/B subject lines",
+          "detail": "Write 6 subject lines and predict which win and why.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 40,
+      "focus": "GA4 basics",
+      "tasks": [
+        {
+          "title": "Learn Google Analytics 4",
+          "detail": "Take Google Analytics Academy GA4 lessons on events, key metrics and reports.",
+          "category": "learn",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Analytics Academy",
+            "url": "https://analytics.google.com/analytics/academy/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Explore a GA4 demo property",
+          "detail": "Use Google's GA4 demo account to find users, traffic sources and conversions.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": {
+            "label": "GA4 demo account",
+            "url": "https://support.google.com/analytics/answer/6367342"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn GA4 setup concept",
+          "detail": "Understand how to add GA4 to a WordPress or Shopify site.",
+          "category": "learn",
+          "minutes": 45,
+          "resource": {
+            "label": "GA4 demo account",
+            "url": "https://support.google.com/analytics/answer/6367342"
+          },
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 41,
+      "focus": "Search Console + GTM",
+      "tasks": [
+        {
+          "title": "Learn Google Search Console basics",
+          "detail": "Study the performance, indexing and sitemaps reports via Search Console training.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": {
+            "label": "Google Search Console training",
+            "url": "https://developers.google.com/search/docs/monitor-debug/search-console-start"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Learn what Google Tag Manager is",
+          "detail": "Understand GTM and why agencies use it to manage tags without editing code.",
+          "category": "learn",
+          "minutes": 75,
+          "resource": {
+            "label": "Google Tag Manager Help",
+            "url": "https://support.google.com/tagmanager/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Draft an analytics setup checklist",
+          "detail": "Write a checklist to set up GA4 + Search Console + pixel on a new client site.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 42,
+      "focus": "Reporting + half-way review",
+      "tasks": [
+        {
+          "title": "Build a monthly marketing report template",
+          "detail": "Create a Sheet/Slides template covering traffic, ads, leads, top pages and next steps.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Week 6 review with the team",
+          "detail": "Show your content, social kit, email flow and analytics work.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Half-way skills self-assessment",
+          "detail": "Rate every skill 1-5 and note the biggest gaps to close in the second half.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 43,
+      "focus": "Onboarding to real work",
+      "tasks": [
+        {
+          "title": "Learn the agency offer and clients",
+          "detail": "Sit with Rohini and Nishanth to learn Infinity & Beyond's services, target clients, brand and workflow.",
+          "category": "admin",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Study the agency's own brand assets",
+          "detail": "Review the current website and brand assets and note improvements you could make.",
+          "category": "learn",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Pick your Week 7-8 real tasks",
+          "detail": "Agree 2-3 real deliverables with the team to work on next.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 44,
+      "focus": "Build a real web section",
+      "tasks": [
+        {
+          "title": "Build a real section on the agency site",
+          "detail": "Build a genuine Services or Portfolio section in Elementor/theme, fully on-brand.",
+          "category": "build",
+          "minutes": 150,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Self-QA and accessibility check",
+          "detail": "Verify mobile layout, alt text and links before review.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Review with Nishanth",
+          "detail": "Get design and code feedback, then iterate.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 45,
+      "focus": "Shadow Nishanth (dev)",
+      "tasks": [
+        {
+          "title": "Shadow a real build/deploy",
+          "detail": "Watch Nishanth set up hosting, WordPress and a theme; note the workflow, staging and handoff steps.",
+          "category": "learn",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Do a supervised sub-task",
+          "detail": "Complete a small real task (add pages, set up a form) under Nishanth's guidance.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Document the workflow",
+          "detail": "Write a short SOP snippet for the team's wiki.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 46,
+      "focus": "Shadow Rohini (marketing)",
+      "tasks": [
+        {
+          "title": "Shadow real marketing work",
+          "detail": "Sit in on a live strategy, content or ads task with Rohini.",
+          "category": "learn",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Produce a real content asset",
+          "detail": "Create a blog post or social set for an actual client or agency need.",
+          "category": "build",
+          "minutes": 120,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Feedback round with Rohini",
+          "detail": "Get the asset reviewed and revise it.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 47,
+      "focus": "Real ad draft",
+      "tasks": [
+        {
+          "title": "Draft a real Meta campaign",
+          "detail": "Build a paused campaign for a genuine goal: objective, audience, INR budget and 3 creatives, ready for approval.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write the targeting rationale",
+          "detail": "Write a short doc justifying your audience and budget choices.",
+          "category": "marketing",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Present to the team for approval",
+          "detail": "Walk through the draft and capture requested changes.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 48,
+      "focus": "Real SEO task",
+      "tasks": [
+        {
+          "title": "Do on-page SEO on a real page",
+          "detail": "Optimize titles, meta, headings, alt text and internal links on a real agency or client page.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Google Search Central - SEO Starter Guide",
+            "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Quick keyword + competitor check",
+          "detail": "Do a fast keyword check and review 2 competitors for the page.",
+          "category": "practice",
+          "minutes": 75,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Log changes and get review",
+          "detail": "Document before/after and have the team review your work.",
+          "category": "delivery",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 49,
+      "focus": "Week 7 consolidation",
+      "tasks": [
+        {
+          "title": "Week 7 review of real contributions",
+          "detail": "Present every real task you shipped and capture feedback. Milestone: first real agency contributions shipped.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Fix outstanding feedback",
+          "detail": "Address all review comments from the week.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Update learning log and skills tracker",
+          "detail": "Record what you shipped and update your skills self-ratings.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 50,
+      "focus": "Own a landing page (brief)",
+      "tasks": [
+        {
+          "title": "Take a real landing-page brief",
+          "detail": "Get the goal, audience, offer and brand assets for a real or realistic client landing page.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Plan and wireframe the page",
+          "detail": "Outline sections, copy, CTA and form in a simple wireframe.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Start building (hero + above the fold)",
+          "detail": "Build the hero and above-the-fold in Elementor or the theme.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 51,
+      "focus": "Build the landing page",
+      "tasks": [
+        {
+          "title": "Build the full landing page",
+          "detail": "Build every section with a working form, mobile-responsive and on-brand.",
+          "category": "build",
+          "minutes": 180,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Add tracking",
+          "detail": "Add GA4, the pixel and a form event with guidance from Nishanth.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 52,
+      "focus": "QA & ship the landing page",
+      "tasks": [
+        {
+          "title": "Run a full QA pass",
+          "detail": "Check speed, mobile, links, the form and SEO basics.",
+          "category": "practice",
+          "minutes": 105,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Fix issues and publish (with approval)",
+          "detail": "Address all QA findings and get sign-off before going live. Milestone: your owned landing page shipped.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Write a handoff doc",
+          "detail": "Document how to edit and maintain the page.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 53,
+      "focus": "Own a Shopify product setup",
+      "tasks": [
+        {
+          "title": "Set up real products end to end",
+          "detail": "For a real or mock D2C client, create products, variants, images, collections and SEO fields.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Shopify Help Center",
+            "url": "https://help.shopify.com/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Write converting product descriptions",
+          "detail": "Write 3-5 PDPs with clear benefits and trust signals.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 54,
+      "focus": "Own an ad-set delivery",
+      "tasks": [
+        {
+          "title": "Deliver a ready-to-launch campaign",
+          "detail": "Build a full Meta campaign with creatives, copy and audiences, approval-ready.",
+          "category": "build",
+          "minutes": 150,
+          "resource": {
+            "label": "Meta Ads Manager Help",
+            "url": "https://www.facebook.com/business/tools/ads-manager"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Run a pre-launch checklist",
+          "detail": "Verify pixel/events, budget, naming conventions and UTM tags.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Get final approval",
+          "detail": "Get team sign-off on the campaign.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 55,
+      "focus": "Own email + content",
+      "tasks": [
+        {
+          "title": "Deliver a real email campaign (draft)",
+          "detail": "Build a segmented, on-brand newsletter or promo email in Mailchimp.",
+          "category": "build",
+          "minutes": 120,
+          "resource": {
+            "label": "Mailchimp Resources / Marketing Library",
+            "url": "https://mailchimp.com/resources/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Deliver a content piece",
+          "detail": "Produce a blog post or social set for a real agency need.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Review and finalize",
+          "detail": "Get the email and content reviewed and finalized.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 56,
+      "focus": "Week 8 review + capstone prep",
+      "tasks": [
+        {
+          "title": "Week 8 review of owned deliverables",
+          "detail": "Present the landing page, product setup, ad set and email to the team.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Address all feedback",
+          "detail": "Fix every review comment from the week.",
+          "category": "practice",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Define your capstone project",
+          "detail": "Choose a small business and scope a complete site plus a basic funnel.",
+          "category": "admin",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 57,
+      "focus": "Capstone: build the site",
+      "tasks": [
+        {
+          "title": "Capstone Day 1 - build the website",
+          "detail": "Build a full small-business site (Home, Services/Products, About, Contact) in WordPress/Elementor or Shopify.",
+          "category": "build",
+          "minutes": 210,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write the project brief",
+          "detail": "Document goals, audience and KPIs for the capstone.",
+          "category": "admin",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 58,
+      "focus": "Capstone: funnel + marketing",
+      "tasks": [
+        {
+          "title": "Capstone Day 2 - build the funnel",
+          "detail": "Add a landing page, lead form, GA4 + pixel, a welcome email and one ad draft.",
+          "category": "build",
+          "minutes": 210,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Set up analytics and verify tracking",
+          "detail": "Confirm GA4 events and the pixel fire correctly.",
+          "category": "practice",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 59,
+      "focus": "Capstone: QA, SEO, polish",
+      "tasks": [
+        {
+          "title": "Full QA + SEO pass",
+          "detail": "Check speed, mobile, on-page SEO, tracking and proofread all copy.",
+          "category": "practice",
+          "minutes": 120,
+          "resource": {
+            "label": "PageSpeed Insights",
+            "url": "https://pagespeed.web.dev/"
+          },
+          "milestone": false
+        },
+        {
+          "title": "Fix everything and finalize",
+          "detail": "Resolve all issues and lock the capstone build.",
+          "category": "build",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Dry-run your presentation",
+          "detail": "Practice the full walkthrough end to end.",
+          "category": "delivery",
+          "minutes": 45,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    },
+    {
+      "day": 60,
+      "focus": "Capstone presentation + growth plan",
+      "tasks": [
+        {
+          "title": "Present the capstone to the team",
+          "detail": "Give a full walkthrough of the site, funnel and metrics plan. Milestone: capstone delivered and presented.",
+          "category": "delivery",
+          "minutes": 90,
+          "resource": null,
+          "milestone": true
+        },
+        {
+          "title": "Complete a skills self-assessment",
+          "detail": "Rate every skill against your Day 42 baseline and identify strengths and remaining gaps.",
+          "category": "practice",
+          "minutes": 60,
+          "resource": null,
+          "milestone": false
+        },
+        {
+          "title": "Write your next-30-day growth plan",
+          "detail": "Set concrete goals, courses and target agency contributions for the next month.",
+          "category": "admin",
+          "minutes": 90,
+          "resource": null,
+          "milestone": false
+        }
+      ]
+    }
+  ]
+}
