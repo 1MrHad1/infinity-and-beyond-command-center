@@ -19,7 +19,7 @@ sees everyone's live progress in one place.
 | Thing | Value |
 |---|---|
 | GitHub repo (private) | https://github.com/1MrHad1/infinity-and-beyond-command-center |
-| Supabase project URL | https://yuuqhoaqxjsykvcogvuq.supabase.co |
+| Supabase project URL | https://YOUR-PROJECT.supabase.co |
 | Netlify site | https://infinity-andbeyond.netlify.app *(name as created; update if renamed)* |
 | Program Day 1 | 2026-09-01 |
 
@@ -38,7 +38,7 @@ Set these in **Netlify → Site configuration → Environment variables** (and l
 The `NEXT_PUBLIC_*` values are baked in at **build time**, so they must exist before the build runs.
 
 ```
-NEXT_PUBLIC_SUPABASE_URL=https://yuuqhoaqxjsykvcogvuq.supabase.co
+NEXT_PUBLIC_SUPABASE_URL=https://YOUR-PROJECT.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=sb_publishable_YUzSAKhy3YcdUnpcXP37aw_LZ7aBKlN
 NEXT_PUBLIC_PROGRAM_START=2026-09-01
 ```
